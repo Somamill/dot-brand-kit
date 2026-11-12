@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 2026-11-12
+
+### Added
+- Accessible dark appearance accents and primary-action foreground roles for all three apps.
+- Runtime CSS exports for both accent palettes and shared motion timing.
+
 ## [1.0.1] - 2026-11-12
 
 ### Added
