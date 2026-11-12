@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.1] - 2026-11-12
+
+### Fixed
+- Share a pressed-state opacity that preserves text contrast in both appearances, with automated contrast checks.
+
 ## [1.1.0] - 2026-11-12
 
 ### Added

@@ -15,6 +15,7 @@ for theme in ['light', 'dark']:
         lines.append(f'  --dot-accent-{key}: {value};')
     lines.append(f"  --dot-on-accent: {tokens['colors']['onAccent'][theme]};")
     if theme == 'light':
+        lines.append(f"  --dot-pressed-opacity: {tokens['interaction']['pressedOpacity']};")
         for key, value in tokens['spacing'].items():
             lines.append(f'  --dot-space-{key}: {value}px;')
         for key, value in tokens['radius'].items():
