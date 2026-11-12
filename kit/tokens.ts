@@ -58,6 +58,6 @@ export const dotTokens = {
     "respectReducedMotion": true
   },
   "interaction": {
-    "pressedOpacity": 0.96
+    "pressedOpacity": 1
   }
 } as const;
