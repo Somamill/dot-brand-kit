@@ -8,6 +8,7 @@ Product descriptions:
 - read. — Books, articles, and highlights.
 - listen. — Find your next audiobook.
 - Immersed — Japanese worth watching.
+- dict. — Japanese words, phrases, and reference material.
 
 Do not describe discovery or download handoff as audiobook playback. Do not claim sync, offline support, privacy properties, or platform availability beyond what the app actually implements.
 
