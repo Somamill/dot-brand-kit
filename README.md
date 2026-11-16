@@ -2,7 +2,7 @@
 
 A quieter way to read, listen, and learn.
 
-Shared identity for [read.](https://github.com/Somamill/read), [listen.](https://github.com/Somamill/listen), and [Immersed](https://github.com/Somamill/immersed).
+Shared identity for [read.](https://github.com/Somamill/read), [listen.](https://github.com/Somamill/listen), [Immersed](https://github.com/Somamill/immersed), and [dict.](https://github.com/Somamill/dict).
 
 ## Edit once, adopt separately
 

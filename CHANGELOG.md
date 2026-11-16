@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.2] - 2026-11-16
+
+### Added
+- Register dict. as the suite’s Japanese dictionary resource and link its one-file download repository.
+
 ## [1.1.1] - 2026-11-12
 
 ### Fixed
