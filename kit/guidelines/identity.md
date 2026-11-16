@@ -2,7 +2,7 @@
 
 Suite name: **dot.** Always lowercase, with the full stop. Repository and package identifiers use `dot` without punctuation.
 
-Product names: **read.**, **listen.**, **Immersed**, **dict.** (the dictionary resource). Do not rename bundle identifiers, URL schemes, repositories, or existing user data directories as part of branding updates.
+Product names: **read.**, **listen.**, **Immersed**, **Kotoba Atlas** (the dictionary resource). Do not rename bundle identifiers, URL schemes, repositories, or existing user data directories as part of branding updates.
 
 Suite signature: “Part of dot.” Tagline: “A quieter way to read, listen, and learn.”
 

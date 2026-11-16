@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.3] - 2026-11-16
+
+### Changed
+- Name the dictionary resource Kotoba Atlas and link the English/German edition repository.
+
 ## [1.1.2] - 2026-11-16
 
 ### Added
