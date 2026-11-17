@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+- Document local multi-repository adoption, agent context and compatibility; correct the disabled automation status.
+
+- Match Store-facing sovo. and Immersed. names while preserving legacy project identifiers and the separate desktop catalogue’s feature promises.
+
 ## [1.1.3] - 2026-11-16
 
 ### Changed
