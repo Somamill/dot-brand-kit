@@ -1,6 +1,6 @@
 # Background tool map
 
-Host inventory checked 18 November 2026. Availability and MCP connections vary by session; check relevant tools/configuration instead of assuming them. Use installed stable compatible tools, and install missing appropriate tools from official distributions. Do not install or run unrelated tools merely to fill this list. Global setup details: `/Users/max/.agents/tool-policy/background-control.md` and `/Users/max/.agents/tool-policy/setup.py` when available. Repo design bootstrap: `.agent-tools/setup.py`.
+Host inventory checked 18 November 2026. Availability and MCP connections vary by session; check relevant tools/configuration instead of assuming them. Use installed stable compatible tools, and install missing appropriate tools from official distributions. Do not install or run unrelated tools merely to fill this list. Global setup details: `~/.agents/tool-policy/background-control.md` and `~/.agents/tool-policy/setup.py` when available. Repo design bootstrap: `.agent-tools/setup.py`.
 
 | Work | Preferred tools | Limits / useful probe |
 | --- | --- | --- |
