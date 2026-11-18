@@ -7,3 +7,5 @@ Read `.agent-tools/policy.md` for UI or video work. Use **Impeccable** and **Hal
 ## Shared standards and agent changes
 
 Read `docs/MULTI_REPO.md` before changes spanning dot. apps. Keep app versions, repositories and Store/community targets independent. Validate kit changes with `python3 scripts/build.py` and `python3 kit/check.py`; review generated diffs. Use exact reviewed source commits, linked consumer PRs and honest local test evidence. GitHub Actions and automatic distribution remain disabled under owner instruction; do not reactivate without renewed explicit approval. No credentials, personal media or invented CI results.
+
+For App Store presentation, metadata or release work, read `docs/APP_STORE_PLAYBOOK.md`. Keep Apple requirements distinct from our creative targets, require real Store-build evidence, and verify current platform eligibility. Changes to this policy need linked consumer adoption PRs; no Actions, paid campaigns or Apple publication is implied.

@@ -42,3 +42,7 @@ Local brand-sync regression tests cover exact revision/hash recording and reject
 - [SLSA: provenance and verification](https://slsa.dev/spec/v1.2/tracks)
 
 These sources inform the local policy; this setup does not claim a SLSA compliance level or enable hosted automation.
+
+## App Store presentation
+
+Store work also follows [the release and growth playbook](APP_STORE_PLAYBOOK.md). Apps pin a reviewed guide commit and maintain their own positioning/feature-evidence brief. A shared visual system does not mean identical keywords, simultaneous versions or the same feature claims.
