@@ -31,3 +31,7 @@ Checks run locally while Actions are disabled. Required hosted checks may theref
 See [multi-repository and agent workflow](docs/MULTI_REPO.md) for change scope, compatibility, test evidence and release boundaries.
 
 Brand names and artwork are starting proposals; no trademark or domain availability search has been performed.
+
+## App Store presentation and growth
+
+Use the [App Store playbook](docs/APP_STORE_PLAYBOOK.md) before Store metadata, screenshot, preview or release work. It defines benefit-led feature cards using real app captures, separate creative assets, ASO/localization, App Store Connect experiments and release evidence. Each app keeps a local marketing brief and pins its adopted playbook revision in AGENTS.md.
