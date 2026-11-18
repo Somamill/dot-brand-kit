@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": 2,
+  "files": {
+    "AGENT_DEVELOPMENT.md": {
+      "path": "docs/AGENT_DEVELOPMENT.md",
+      "sha256": "ab7050d389ca36b4604b4f1fd906209fa4bb5086053fc70bf626e64a170b9fb0"
+    },
+    "TOOL_CATALOG.md": {
+      "path": "docs/TOOL_CATALOG.md",
+      "sha256": "a2468ac330c9747c6e896a50f5c7f41212e8d855ac4a0706f65f42148a66db75"
+    },
+    "LOCALIZATION.md": {
+      "path": "docs/LOCALIZATION.md",
+      "sha256": "06a4968c2eb5cc3765c655fe38c54f4d4602fb3b1ed849048f59ee1b351f9ea4"
+    },
+    "APP_STORE_PLAYBOOK.md": {
+      "path": "docs/APP_STORE_PLAYBOOK.md",
+      "sha256": "3a39af2eda9a75707294dabf2e112690d43492ba31ed14e2aa24a6e6e0b10d2b"
+    },
+    "TREND_RESEARCH.md": {
+      "path": "docs/TREND_RESEARCH.md",
+      "sha256": "f9c8cdeed421e42951b112256ac8a11006be525af0ddf398c4f4faf19b6ec8cf"
+    },
+    "LANGUAGES.json": {
+      "path": "docs/LANGUAGES.json",
+      "sha256": "18aa5b53e1d48f860077db279378d71146a1d6dd9944a4e9d1ecfeb9ab9d7aa3"
+    }
+  }
+}
