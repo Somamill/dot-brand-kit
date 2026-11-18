@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "policyVersion": 2,
+  "scope": "interface-and-store-not-dictionary-content",
+  "implementationStatus": "future-requirement-not-implemented-by-policy",
+  "default": "system-preferred-supported-language",
+  "fallback": "en",
+  "languages": [
+    {
+      "uiTag": "en",
+      "language": "English",
+      "appStoreLanguageLabel": "English (U.S.)"
+    },
+    {
+      "uiTag": "zh-Hans",
+      "language": "Chinese, Simplified",
+      "appStoreLanguageLabel": "Chinese (Simplified)"
+    },
+    {
+      "uiTag": "hi",
+      "language": "Hindi",
+      "appStoreLanguageLabel": "Hindi"
+    },
+    {
+      "uiTag": "es",
+      "language": "Spanish",
+      "appStoreLanguageLabel": "Spanish (Spain)"
+    },
+    {
+      "uiTag": "fr",
+      "language": "French",
+      "appStoreLanguageLabel": "French"
+    },
+    {
+      "uiTag": "ar",
+      "language": "Arabic",
+      "appStoreLanguageLabel": "Arabic"
+    },
+    {
+      "uiTag": "bn",
+      "language": "Bangla / Bengali",
+      "appStoreLanguageLabel": "Bangla"
+    },
+    {
+      "uiTag": "pt-BR",
+      "language": "Portuguese, Brazil",
+      "appStoreLanguageLabel": "Portuguese (Brazil)"
+    },
+    {
+      "uiTag": "ru",
+      "language": "Russian",
+      "appStoreLanguageLabel": "Russian"
+    },
+    {
+      "uiTag": "id",
+      "language": "Indonesian",
+      "appStoreLanguageLabel": "Indonesian"
+    },
+    {
+      "uiTag": "de",
+      "language": "German",
+      "appStoreLanguageLabel": "German"
+    },
+    {
+      "uiTag": "ja",
+      "language": "Japanese",
+      "appStoreLanguageLabel": "Japanese"
+    }
+  ]
+}
