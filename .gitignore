@@ -1,0 +1,5 @@
+
+
+# Local agent requirement sync artifacts
+__pycache__/
+.agent-tools/.requirements-*

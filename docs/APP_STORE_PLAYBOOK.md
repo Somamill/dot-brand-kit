@@ -1,6 +1,6 @@
 # App Store release and growth playbook
 
-Policy v1 — researched 18 November 2026. Applies to dot. Store apps and to other owned Apple apps using their own brand. App Store optimization (ASO) means relevant discovery plus an honest, convincing product page; rankings or downloads are never guaranteed. Recheck Apple's linked requirements and the target app's live App Store Connect controls before each release: platform eligibility and upload specifications change.
+Policy v2 — researched 18 November 2026. Applies to dot. Store apps and to other owned Apple apps using their own brand. App Store optimization (ASO) means relevant discovery plus an honest, convincing product page; rankings or downloads are never guaranteed. Recheck Apple's linked requirements and the target app's live App Store Connect controls before each release: platform eligibility and upload specifications change.
 
 ## 1. Release brief before assets or metadata
 
@@ -89,7 +89,15 @@ Check field limits, spelling, exact product names, links, required device sets, 
 
 Publishing follows the owner's existing authorization: prepare and verify concrete changes, then complete authorized actions without repeatedly asking about routine steps. This task's rules do not themselves authorize new uploads, agreements, advertising spend or publication. Report "saved", "submitted", "approved" and "live" separately and verify each claimed state. All GitHub Actions and automatic Store delivery remain off; use local background checks and keep the remaining branch protections.
 
-## 8. Observed references and primary sources
+## 8. Mandatory current research, panoramic design and languages
+
+Before each release, follow [TREND_RESEARCH.md](TREND_RESEARCH.md): check current Apple rules and storefront trends, include adjacent and cross-category references, distinguish revenue estimates from popularity and record a fresh research note. Continuous multi-card curves/scenes are encouraged with an editable master, exact slices and standalone readable cards; inspect seams, real UI, crops and localized/RTL presentation. Local rendering/3D tools may create original supporting art, never fabricated app screenshots.
+
+[LOCALIZATION.md](LOCALIZATION.md) and [LANGUAGES.json](LANGUAGES.json) define the future 12-language UI/Store baseline and system-language default. Dictionary/learning-content languages stay separate. Agents must audit real implementation before the next user-facing release, report missing translations/default selection/layout review as blockers and never count this policy as completed localization. The owner explicitly deferred current-app implementation.
+
+For general Mac-based development and tool installation/automation, follow [AGENT_DEVELOPMENT.md](AGENT_DEVELOPMENT.md) and [TOOL_CATALOG.md](TOOL_CATALOG.md), not only this release guide. Working agents maintain the repo-specific design/context and update managed requirements through the local sync. Actions remain off.
+
+## 9. Observed references and primary sources
 
 On 18 November 2026 the first public US screenshot for [Readwise Reader](https://apps.apple.com/us/app/readwise-reader/id1567599761), [BookPlayer](https://apps.apple.com/us/app/bookplayer/id1138219998), [LingQ](https://apps.apple.com/us/app/lingq-learn-languages/id379385811) and [Matter](https://apps.apple.com/us/app/matter-reading-app/id1501592184) was visually inspected from Apple's listing assets. Reader pairs a reading benefit with a large library view; BookPlayer foregrounds playback; LingQ frames its immersion flow; Matter uses editorial recognition around the interface. These observations support benefit-led sequencing and clear UI, not conversion or revenue claims. Do not imitate recognition that our apps have not earned. Competitor media are research references and are not included as reusable project assets.
 

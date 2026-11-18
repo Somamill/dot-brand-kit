@@ -35,3 +35,7 @@ Brand names and artwork are starting proposals; no trademark or domain availabil
 ## App Store presentation and growth
 
 Use the [App Store playbook](docs/APP_STORE_PLAYBOOK.md) before Store metadata, screenshot, preview or release work. It defines benefit-led feature cards using real app captures, separate creative assets, ASO/localization, App Store Connect experiments and release evidence. Each app keeps a local marketing brief and pins its adopted playbook revision in AGENTS.md.
+
+## Connected agent requirements
+
+All repositories adopt a hash-verified local requirements bundle through `python3 .agent-tools/run.py requirements --update`. This updates approved Markdown/JSON rules only, never executes downloaded code or overwrites local design documents. Working agents maintain `.agent-tools/PROJECT_CONTEXT.md` and the actual design sources. See [general development](docs/AGENT_DEVELOPMENT.md), [tool map](docs/TOOL_CATALOG.md), [future localization](docs/LOCALIZATION.md) and [fresh research/panoramas](docs/TREND_RESEARCH.md). No Actions, scheduled service or paid database is added.

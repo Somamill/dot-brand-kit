@@ -9,3 +9,7 @@ This is a standing user preference for every repository, including dot. suite pr
 For dot. suite apps, `branding/dot/` and the shared dot-brand-kit define the identity. For other projects, preserve their own design rules and product names. Existing app-specific build, signing, release and test requirements still apply. Avoid running unrelated tools for backend-only, dependency-only or documentation-only edits. Report tools used, material findings and any unavailable verification; never claim an unrun check passed.
 
 The global installation makes skills available on this machine. Each checkout contains reproducible setup for another machine. `AGENTS.md` is an agent instruction, not a guarantee that an unrelated editor or human will invoke these tools. This setup uses explicit checks rather than automatic edit hooks; no hook-trust approval is required. Do not publish videos or upload private project content to external services without the user's authorization.
+
+
+## General background development and connected requirements
+Use `python3 .agent-tools/run.py requirements` to check approved shared rules and `--update` to adopt changed documentation after inspection. Read the managed AGENT_DEVELOPMENT.md and TOOL_CATALOG.md; use relevant compatible tools and real validation rather than every installed tool. Working agents own PROJECT_CONTEXT.md and real design requirements. Preserve user work, publishing boundaries and Actions-off policy.

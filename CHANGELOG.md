@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Connect agent-maintained project context and local policy syncing across repositories; require current cross-category research, continuous screenshot design checks and future system-default multilingual UI/Store coverage.
+
 - Establish a shared App Store release/ASO playbook with truthful marketing assets, platform eligibility, experiments and agent evidence gates.
 
 - Document local multi-repository adoption, agent context and compatibility; correct the disabled automation status.

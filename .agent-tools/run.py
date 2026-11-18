@@ -5,10 +5,12 @@ import pathlib
 import subprocess
 import sys
 
-if len(sys.argv) < 2 or sys.argv[1] not in {'impeccable', 'hallmark', 'hyperframes'}:
-    raise SystemExit('Usage: python3 .agent-tools/run.py impeccable|hallmark|hyperframes [arguments]')
+if len(sys.argv) < 2 or sys.argv[1] not in {'impeccable', 'hallmark', 'hyperframes', 'requirements'}:
+    raise SystemExit('Usage: python3 .agent-tools/run.py impeccable|hallmark|hyperframes|requirements [arguments]')
 tool, args = sys.argv[1], sys.argv[2:]
 env = os.environ.copy()
+if tool == 'requirements':
+    raise SystemExit(subprocess.run([sys.executable, str(pathlib.Path(__file__).with_name('sync.py')), *args]).returncode)
 if tool == 'hallmark':
     script = pathlib.Path.home() / '.agents/skills/hallmark/scripts/sloplint.mjs'
     if not script.is_file():
