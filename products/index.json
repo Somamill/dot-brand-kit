@@ -54,7 +54,7 @@
   },
   "sovo": {
     "name": "sovo.",
-    "repository": "Somamill/listen",
+    "repository": "Somamill/sovo",
     "scope": "ios",
     "kind": "app",
     "accent": {

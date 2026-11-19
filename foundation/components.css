@@ -27,3 +27,6 @@
 .dot-button:active { background: var(--dot-border); }
 .dot-button:disabled { opacity: .6; }
 .dot-surface :focus-visible { outline: 2px solid var(--dot-accent); outline-offset: 3px; }
+
+.dot-button, .dot-search { max-inline-size: 100%; }
+.dot-button { overflow-wrap: anywhere; }
