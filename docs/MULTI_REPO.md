@@ -5,7 +5,7 @@ Keep app repositories separate. Share semantic design tokens, identity and copy 
 ## Ownership and revisions
 
 - `read` owns reading/highlights and the standalone Store app; its full desktop edition is separate.
-- `listen` owns the native sovo. player and a separate listen. desktop catalogue. Internal project keys remain stable.
+- `sovo/ios` owns the native sovo. player. The desktop catalogue remains independent, including any legacy code still hosted beside sovo. Internal project keys remain stable.
 - `immersed` owns the community app and restricted Store edition; their versions and permitted capabilities are distinct.
 - `kotoba-atlas` owns dictionary data; consumers pin the data version and verify its integration rather than assuming every app has the newest database.
 - `dot-brand-kit` owns shared standards. Consumers vendor `kit/` with the commit and file hashes in `branding/dot/source.json`. Do not edit those snapshots directly or require every app to upgrade together.
@@ -32,7 +32,7 @@ Use existing package lockfiles and SDK-compatible update tools; do not apply a s
 
 Local brand-sync regression tests cover exact revision/hash recording and rejection of staged, modified, untracked, ignored, linked, unexpected or oversized inputs before the existing snapshot changes, including optimized Python. Run them in the app's normal Python test layout. Native and functional app tests remain app-specific.
 
-**Owner policy:** GitHub Actions and automatic Store delivery remain disabled. Do not enable schedules, dispatch/rerun workflows, introduce a permanent runner or set `STORE_RELEASE_ENABLED=true` without renewed owner approval. Source and PR management through GitHub and local background checks remain available. Do not bypass missing required checks. If hosted workflows are authorized again, use least privilege and immutable action/workflow references rather than moving tags.
+**Owner policy:** GitHub Actions and automatic Store delivery remain disabled. Do not enable schedules, dispatch/rerun hosted workflows or set `STORE_RELEASE_ENABLED=true` without renewed owner approval. Source and PR management through GitHub and local background checks remain available. Do not bypass missing required checks. If hosted workflows are authorized again, use least privilege and immutable action/workflow references rather than moving tags.
 
 ## Sources
 
@@ -46,3 +46,5 @@ These sources inform the local policy; this setup does not claim a SLSA complian
 ## App Store presentation
 
 Store work also follows [the release and growth playbook](APP_STORE_PLAYBOOK.md). Apps pin a reviewed guide commit and maintain their own positioning/feature-evidence brief. A shared visual system does not mean identical keywords, simultaneous versions or the same feature claims.
+
+Use the [product registry](../products/index.json) for member scope and [Mac Development Tools](https://github.com/Somamill/mac-development-tools) for local technical orchestration. Its validation jobs are configured separately from dot. membership.

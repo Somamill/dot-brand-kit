@@ -4,7 +4,7 @@
   "files": {
     "AGENT_DEVELOPMENT.md": {
       "path": "docs/AGENT_DEVELOPMENT.md",
-      "sha256": "ab7050d389ca36b4604b4f1fd906209fa4bb5086053fc70bf626e64a170b9fb0"
+      "sha256": "c566d07a38180394c428601def54129a98da69e1255909d52da711ae4f7d9e34"
     },
     "TOOL_CATALOG.md": {
       "path": "docs/TOOL_CATALOG.md",
@@ -16,7 +16,7 @@
     },
     "APP_STORE_PLAYBOOK.md": {
       "path": "docs/APP_STORE_PLAYBOOK.md",
-      "sha256": "3a39af2eda9a75707294dabf2e112690d43492ba31ed14e2aa24a6e6e0b10d2b"
+      "sha256": "668594f904bd1d6e1d09511d6e9691276b8b49a88ae1e92cf3de553791522d46"
     },
     "TREND_RESEARCH.md": {
       "path": "docs/TREND_RESEARCH.md",

@@ -1,6 +1,6 @@
 # App Store release and growth playbook
 
-Policy v2 — researched 18 November 2026. Applies to dot. Store apps and to other owned Apple apps using their own brand. App Store optimization (ASO) means relevant discovery plus an honest, convincing product page; rankings or downloads are never guaranteed. Recheck Apple's linked requirements and the target app's live App Store Connect controls before each release: platform eligibility and upload specifications change.
+Policy v2 — researched 18 November 2026. Applies to registered dot. Store products. Independent projects maintain their own presentation policy. App Store optimization (ASO) means relevant discovery plus an honest, convincing product page; rankings or downloads are never guaranteed. Recheck Apple's linked requirements and the target app's live App Store Connect controls before each release: platform eligibility and upload specifications change.
 
 ## 1. Release brief before assets or metadata
 
@@ -8,7 +8,7 @@ Identify the App Store ID, bundle ID, platform, storefront/localization, selecte
 
 Write one audience, one primary problem, one main outcome and a short feature-to-evidence matrix. Every advertised feature must have an implemented flow and verification in the selected Store build/platform. Cover the meaningful shipped features across the screenshot story, description and optional preview; do not cram every setting into one image. Map secondary features to copy or explain why omitted. Pending PRs and planned features are not marketing evidence.
 
-Keep app versions and release timing independent. Align suite typography, spacing, semantic colors, tone and release terminology through the adopted dot. kit; retain read.'s reading identity, sovo.'s listening identity and Immersed.'s learning identity. Shinkoiwa retains its own game art direction. Do not rename bundle IDs, URL schemes or data locations. Never delay a necessary safety/bug fix solely to synchronize campaigns.
+Keep app versions and release timing independent. Align suite typography, spacing, semantic colors, tone and release terminology through the adopted dot. kit; retain read.'s reading identity, sovo.'s listening identity and Immersed.'s learning identity. Do not rename bundle IDs, URL schemes or data locations. Never delay a necessary safety/bug fix solely to synchronize campaigns.
 
 ## 2. Three different public asset types
 

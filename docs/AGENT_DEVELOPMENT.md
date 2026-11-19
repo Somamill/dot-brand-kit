@@ -1,6 +1,6 @@
 # Agent development requirements
 
-Applies to every repository, not only Store releases. Quality is the priority; speed comes from reliable automation, targeted inspection and reuse, not skipped validation. Use the strongest stable, project-compatible tools available. Do not run every installed tool on unrelated work.
+Applies to registered dot. product scopes. Shared technical tooling lives in [Mac Development Tools](https://github.com/Somamill/mac-development-tools). Quality is the priority; speed comes from reliable automation, targeted inspection and reuse, not skipped validation. Use the strongest stable, project-compatible tools available. Do not run every installed tool on unrelated work.
 
 ## Start and finish each task
 
