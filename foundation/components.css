@@ -1,0 +1,32 @@
+@import url("./tokens.css");
+
+.dot-surface {
+  color: var(--dot-text);
+  background: var(--dot-background);
+  font: var(--dot-bodyWeight) var(--dot-bodySize)/var(--dot-lineHeight) var(--dot-fontFamily);
+}
+.dot-card, .dot-dialog {
+  background: var(--dot-surface);
+  border: 1px solid var(--dot-border);
+  border-radius: var(--dot-radius-card);
+  padding: var(--dot-spacing-lg);
+}
+.dot-heading { font-size: var(--dot-headingSize); font-weight: var(--dot-headingWeight); }
+.dot-caption { color: var(--dot-secondaryText); font-size: var(--dot-captionSize); }
+.dot-button, .dot-search {
+  box-sizing: border-box;
+  min-block-size: 44px;
+  font: inherit;
+  color: inherit;
+  background: var(--dot-surface);
+  border: 1px solid var(--dot-secondaryText);
+  border-radius: var(--dot-radius-control);
+  padding: var(--dot-spacing-xs) var(--dot-spacing-md);
+}
+.dot-button { font-weight: var(--dot-buttonWeight); }
+.dot-button:active { background: var(--dot-border); }
+.dot-button:disabled { opacity: .6; }
+.dot-surface :focus-visible { outline: 2px solid var(--dot-accent); outline-offset: 3px; }
+
+.dot-button, .dot-search { max-inline-size: 100%; }
+.dot-button { overflow-wrap: anywhere; }

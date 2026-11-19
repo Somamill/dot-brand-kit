@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<meta name="description" content="A dot. foundation fixture for script rendering and enlarged text.">
+<title>dot. script and scaling fixture</title>
+<link rel="stylesheet" href="../foundation/components.css">
+<style>
+  body { margin: 0; }
+  main { max-inline-size: 54rem; margin-inline: auto; padding: clamp(1rem, 4vw, 3rem); }
+  section { margin-block: 1rem; }
+  label { display: block; margin-block: .75rem .25rem; }
+  .enlarged { font-size: 1.5em; }
+</style>
+<body class="dot-surface">
+<main>
+<h1 class="dot-heading">Script and scaling fixture</h1>
+<p class="dot-caption">Check reading order, glyphs, keyboard focus and text expansion.</p>
+<section class="dot-card" dir="rtl" lang="ar">
+  <h2 class="dot-heading">واجهة القراءة</h2>
+  <p>يمكنك البحث عن <bdi lang="ja">日本語</bdi> وقراءة النص بسهولة.</p>
+  <label for="search">البحث</label>
+  <input class="dot-search" id="search" type="search" value="مرحبا">
+</section>
+<section class="dot-card">
+<p lang="ru">Продолжить чтение</p>
+<p lang="ja"><ruby>日本語<rt>にほんご</rt></ruby>の読み方</p>
+<p lang="zh-Hans">简体中文：骨、直、语言</p>
+<p lang="zh-Hant">繁體中文：骨、直、語言</p>
+<button class="dot-button enlarged" type="button" lang="de">Barrierefreiheitseinstellungen öffnen</button>
+</section>
+</main>
+</body>
+</html>
