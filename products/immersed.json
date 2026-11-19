@@ -1,0 +1,16 @@
+{
+  "name": "Immersed.",
+  "repository": "Somamill/immersed",
+  "scope": ".",
+  "kind": "app",
+  "accent": {
+    "light": "#5557A8",
+    "dark": "#C3BDF7"
+  },
+  "mark": "products/immersed.svg",
+  "platforms": [
+    "ios",
+    "ipados",
+    "macos"
+  ]
+}

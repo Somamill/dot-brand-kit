@@ -1,0 +1,15 @@
+{
+  "name": "dict.",
+  "repository": "Somamill/dict",
+  "scope": ".",
+  "kind": "app",
+  "platforms": [
+    "ios",
+    "ipados",
+    "macos"
+  ],
+  "accent": {
+    "light": "#D52236",
+    "dark": "#FF7584"
+  }
+}

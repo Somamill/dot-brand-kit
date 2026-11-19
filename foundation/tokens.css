@@ -1,0 +1,38 @@
+/* Generated from foundation/tokens.json. */
+:root, [data-dot-theme="light"] {
+  --dot-background: #FAF8F4;
+  --dot-surface: #FFFFFF;
+  --dot-text: #242622;
+  --dot-secondaryText: #60645C;
+  --dot-border: #DADDD5;
+  --dot-accent: #42684B;
+  --dot-onAccent: #FFFFFF;
+}
+[data-dot-theme="dark"] {
+  --dot-background: #151815;
+  --dot-surface: #20251F;
+  --dot-text: #F4F3EC;
+  --dot-secondaryText: #ADB6A7;
+  --dot-border: #414B3E;
+  --dot-accent: #A9C7AE;
+  --dot-onAccent: #151815;
+}
+:root {
+  --dot-spacing-xs: 4px;
+  --dot-spacing-sm: 8px;
+  --dot-spacing-md: 12px;
+  --dot-spacing-lg: 16px;
+  --dot-spacing-xl: 24px;
+  --dot-spacing-xxl: 32px;
+  --dot-radius-control: 8px;
+  --dot-radius-card: 16px;
+  --dot-bodySize: 16px;
+  --dot-captionSize: 13px;
+  --dot-headingSize: 24px;
+  --dot-lineHeight: 1.5;
+  --dot-fontFamily: system-ui;
+  --dot-buttonSize: 16px;
+  --dot-bodyWeight: 400;
+  --dot-headingWeight: 650;
+  --dot-buttonWeight: 600;
+}

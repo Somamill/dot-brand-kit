@@ -1,0 +1,16 @@
+{
+  "name": "sovo.",
+  "repository": "Somamill/listen",
+  "scope": "ios",
+  "kind": "app",
+  "accent": {
+    "light": "#42684B",
+    "dark": "#A9C7AE"
+  },
+  "mark": "products/sovo.svg",
+  "platforms": [
+    "ios",
+    "ipados",
+    "macos"
+  ]
+}

@@ -40,3 +40,9 @@
 
 ### Added
 - Initial dot. identity, tokens, vector marks, copy and release standards.
+
+## 2.0.0
+
+- Added product-scoped membership and an app-independent Swift and CSS foundation.
+- Added deterministic catalogue and token generation, a script fixture and commit-pinned adoption.
+- Moved technical tooling ownership to Mac Development Tools. The 1.x snapshot remains available for migration.

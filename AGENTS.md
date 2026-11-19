@@ -19,3 +19,7 @@ Agents working on this repo maintain PROJECT_CONTEXT.md and the actual design so
 
 UI/release work must read `LOCALIZATION.md` and `LANGUAGES.json`: future system/per-app language defaults and twelve-language coverage are release requirements, not proof of implementation. Dictionary/media/learning content is separate. Store work also reads `APP_STORE_PLAYBOOK.md` and `TREND_RESEARCH.md`: refresh current cross-category/financial-vs-popularity evidence and keywords, and inspect continuous feature-card seams/standalone readability where used. Missing required coverage/evidence must be reported, not silently waived. Preserve existing owner authorization, privacy, project identity and Actions-off policy.
 <!-- connected-requirements:end -->
+
+## Membership and versioned foundations
+
+Edit product profiles under `products/` and regenerate with `python3 scripts/foundation.py`. Verify with `python3 scripts/foundation.py --check`, the existing kit checks and a Swift package build when Swift components change. Keep feature behavior in its owning app and confirm membership at its directory scope. Technical tooling is owned by Somamill/mac-development-tools.

@@ -1,0 +1,16 @@
+{
+  "name": "read.",
+  "repository": "Somamill/read",
+  "scope": ".",
+  "kind": "app",
+  "accent": {
+    "light": "#906530",
+    "dark": "#D7B685"
+  },
+  "mark": "products/read.svg",
+  "platforms": [
+    "ios",
+    "ipados",
+    "macos"
+  ]
+}

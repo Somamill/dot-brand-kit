@@ -2,8 +2,6 @@
 
 Suite name: **dot.** Always lowercase, with the full stop. Repository and package identifiers use `dot` without punctuation.
 
-Native Store product names: **read.**, **sovo.** and **Immersed.** The dictionary resource is **Kotoba Atlas**. The native audiobook app keeps the repository/project key `listen`; the separate community desktop catalogue still uses **listen.** Do not rename bundle identifiers, URL schemes, repositories, asset keys or existing user data directories as part of branding updates.
-
 Suite signature: “Part of dot.” Tagline: “A quieter way to read, listen, and learn.”
 
 Use the suite signature in About, onboarding completion, and the website footer. Companion links belong in About or Settings, with each app's purpose stated. Keep primary reading, listening, and learning screens focused on their content.

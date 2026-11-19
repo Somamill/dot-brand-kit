@@ -2,17 +2,9 @@
 
 A quieter way to read, listen, and learn.
 
-Shared identity for [read.](https://github.com/Somamill/read), [sovo. / listen.](https://github.com/Somamill/listen), [Immersed.](https://github.com/Somamill/immersed), and [Kotoba Atlas](https://github.com/Somamill/kotoba-atlas).
+dot. is an enduring product family and design system. Its [catalogue](CATALOGUE.md) is generated from explicit product profiles. The repository hosting a product is independent of its membership.
 
-## Edit once, adopt separately
-
-Edit `kit/tokens.json`, guidelines, or vector marks. Run `python3 scripts/build.py` and `python3 kit/check.py`, then commit generated exports together. Increase the kit version for published kit changes; use independent app versions. Review changes through pull requests.
-
-**GitHub Actions are disabled by owner instruction (17 November 2026).** There is no active hourly distribution or automatic Store delivery. Do not resume either without renewed explicit approval. The workflow files retained in app repositories describe an optional hosted route, not a running service.
-
-For local adoption, review a full commit in an isolated checkout of this public repository. In each app, run its existing `sync-dot-brand.py` against that checkout, then validate `branding/dot/check.py` and the affected app checks. The sync rejects modified, staged, untracked or ignored files inside `kit/` and records the exact source commit and file hashes. Review each resulting PR separately; no cross-repository personal access token or automatic merge is needed.
-
-The initial setup installed snapshots in the apps. Subsequent updates are proposed through PRs. Updating this kit changes vendored assets and guidance; product screens adopt the tokens in separate feature changes.
+Use [the adoption guide](docs/FOUNDATION.md) for new projects. Existing applications can migrate on their own release schedules. The 1.x snapshot under `kit/` supports existing consumers while the 2.x foundation carries generic semantics and platform components.
 
 ## Contents
 
@@ -36,6 +28,6 @@ Brand names and artwork are starting proposals; no trademark or domain availabil
 
 Use the [App Store playbook](docs/APP_STORE_PLAYBOOK.md) before Store metadata, screenshot, preview or release work. It defines benefit-led feature cards using real app captures, separate creative assets, ASO/localization, App Store Connect experiments and release evidence. Each app keeps a local marketing brief and pins its adopted playbook revision in AGENTS.md.
 
-## Connected agent requirements
+## Shared Mac tooling
 
-All repositories adopt a hash-verified local requirements bundle through `python3 .agent-tools/run.py requirements --update`. This updates approved Markdown/JSON rules only, never executes downloaded code or overwrites local design documents. Working agents maintain `.agent-tools/PROJECT_CONTEXT.md` and the actual design sources. See [general development](docs/AGENT_DEVELOPMENT.md), [tool map](docs/TOOL_CATALOG.md), [future localization](docs/LOCALIZATION.md) and [fresh research/panoramas](docs/TREND_RESEARCH.md). No Actions, scheduled service or paid database is added.
+Build and release tooling is owned by [Mac Development Tools](https://github.com/Somamill/mac-development-tools). Each project configures its own jobs. Membership and brand validation are configured at the product level.

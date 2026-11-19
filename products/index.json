@@ -1,0 +1,71 @@
+{
+  "dict": {
+    "name": "dict.",
+    "repository": "Somamill/dict",
+    "scope": ".",
+    "kind": "app",
+    "platforms": [
+      "ios",
+      "ipados",
+      "macos"
+    ],
+    "accent": {
+      "light": "#D52236",
+      "dark": "#FF7584"
+    }
+  },
+  "immersed": {
+    "name": "Immersed.",
+    "repository": "Somamill/immersed",
+    "scope": ".",
+    "kind": "app",
+    "accent": {
+      "light": "#5557A8",
+      "dark": "#C3BDF7"
+    },
+    "mark": "products/immersed.svg",
+    "platforms": [
+      "ios",
+      "ipados",
+      "macos"
+    ]
+  },
+  "kotoba-atlas": {
+    "name": "Kotoba Atlas",
+    "repository": "Somamill/kotoba-atlas",
+    "scope": ".",
+    "kind": "data"
+  },
+  "read": {
+    "name": "read.",
+    "repository": "Somamill/read",
+    "scope": ".",
+    "kind": "app",
+    "accent": {
+      "light": "#906530",
+      "dark": "#D7B685"
+    },
+    "mark": "products/read.svg",
+    "platforms": [
+      "ios",
+      "ipados",
+      "macos"
+    ]
+  },
+  "sovo": {
+    "name": "sovo.",
+    "repository": "Somamill/listen",
+    "scope": "ios",
+    "kind": "app",
+    "accent": {
+      "light": "#42684B",
+      "dark": "#A9C7AE"
+    },
+    "mark": "products/sovo.svg",
+    "platforms": [
+      "ios",
+      "ipados",
+      "macos"
+    ]
+  }
+}
