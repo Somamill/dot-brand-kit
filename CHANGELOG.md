@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+- Add native symbol-first buttons and settings switches with shared usage guidance.
 - Require evidence of a project-specific background check before screen control and keep translation review labels internal.
 
 - Connect agent-maintained project context and local policy syncing across repositories; require current cross-category research, continuous screenshot design checks and future system-default multilingual UI/Store coverage.
