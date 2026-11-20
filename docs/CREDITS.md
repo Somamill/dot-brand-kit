@@ -1,0 +1,37 @@
+# Credits
+
+Every registered dot. app includes Credits in its native About or Settings
+screen. A registered product with a web interface can place Credits in About
+or the site footer. Read the shared credit details from
+[`foundation/credits.json`](../foundation/credits.json) at the app's
+reviewed kit revision. Keep product-specific credits and license notices
+with the product.
+
+## What appears
+
+- **Made by Max** and **Part of dot.** as concise credits. Localize the
+  surrounding words and preserve names and URLs.
+- **Support on Ko-fi** links to Max's approved Ko-fi page on surfaces where
+  an external tip link is permitted. Use a native link with a clear label
+  and open the person's browser. Support is voluntary and provides no
+  app features, content or privileges.
+- **Social links** appear only when Max supplies and approves public
+  account URLs. Add each approved account to the shared `socials` array
+  with a `name` and an HTTPS `url`. Give each link a visible name and an
+  accessible label. Hide the section while the list is empty.
+
+Place the support link on the product website and in the repository README
+where available. App Store editions must check the applicable App Review
+rules for the release and storefront before enabling a direct Ko-fi link or
+other in-app tipping prompt. Where no permitted route is established, show
+the creator and suite credits in the app and keep Ko-fi on the website and
+README. See [Apple's payment rules and gift exception](https://developer.apple.com/app-store/review/guidelines/#business).
+
+## Adoption checks
+
+Open Credits in the app's normal entry point. Verify the approved URL,
+keyboard and screen-reader access, localized names, and the absence of a
+social heading when there are no links. For Store builds, verify the
+support row in every applicable storefront configuration. Keep the
+pinned credit details and rendered UI in sync when the owner adds socials
+or changes the support destination.

@@ -1,6 +1,6 @@
 # Adopting dot. in an app
 
-1. Start with About: use the exact suite name `dot.`, the signature `Part of dot.`, and companion links with honest platform descriptions.
+1. Start with About: use the exact suite name `dot.`, the signature `Part of dot.`, and companion links with honest platform descriptions. Add the shared [Credits](../../docs/CREDITS.md).
 2. Map existing colors and spacing to semantic tokens. Review a small set of components in light and dark appearance before extending the mapping.
 3. Keep user-selected reader fonts and native platform interactions. Validate contrast, keyboard focus, text scaling and reduced motion on actual screens.
 4. Design and review platform app icons separately. The provided circles are suite marks and accent references.

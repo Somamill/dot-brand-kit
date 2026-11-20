@@ -10,6 +10,8 @@ The [script fixture](../fixtures/scripts.html) exercises mixed direction, ruby, 
 
 For common actions and binary settings, start with the [dot. controls](CONTROLS.md).
 
+Add the shared [Credits](CREDITS.md) to each registered product interface.
+
 ## Desktop update experience
 
 For directly distributed macOS apps, use a compatible signed updater such as [Sparkle](https://sparkle-project.org/documentation/). Provide automatic availability checks, a visible Check for Updates command, release notes and Later/Skip choices. Require HTTPS, verified update signatures, a signed and notarized app, and channel/version compatibility. Preserve update preferences and document how to recover a prior compatible release. Mac App Store executable updates go through the Store under [Apple’s review guidelines](https://developer.apple.com/app-store/review/guidelines/). Dictionary data has its own version and integrity checks. The tooling repository owns reusable technical orchestration; product-specific signing and delivery configuration stays with the product.
