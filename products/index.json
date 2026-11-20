@@ -1,4 +1,18 @@
 {
+  "clean": {
+    "name": "clean.",
+    "repository": "Somamill/dot-clean",
+    "scope": ".",
+    "kind": "app",
+    "accent": {
+      "light": "#176184",
+      "dark": "#79C8EB"
+    },
+    "mark": "products/clean.svg",
+    "platforms": [
+      "macos"
+    ]
+  },
   "dict": {
     "name": "dict.",
     "repository": "Somamill/dict",
