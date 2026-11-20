@@ -67,8 +67,6 @@ An extra preview or fancier treatment is a hypothesis, not guaranteed improvemen
 
 ## 7. Release packet and completion gate
 
-Verify default-on iCloud sync in the release candidate for iOS, iPadOS and Mac App Store variants. Confirm signed entitlement and container configuration, including the production CloudKit schema when used. Test two supported devices on the same iCloud account, including cross-platform sync where the app supports it. Exercise first launch, edits and deletions, offline edits and reconnect, conflicts, sign-out or account change, and existing local data migration where applicable. Verify local use with iCloud unavailable and that an explicit opt-out stays off. Record the synced data scope, reconcile privacy disclosures and release copy, and treat missing integration or evidence as a release blocker. [Apple CloudKit private database](https://developer.apple.com/documentation/cloudkit/ckcontainer/privateclouddatabase)
-
 For every Store listing/release task, include the following in the app's release record or PR. Use "not applicable" with a reason rather than silently skipping a platform or field:
 
 ```text
@@ -80,7 +78,6 @@ Screenshot story (order, benefit, real capture, build/device/OS, locale, rights)
 Previews and creative assets (separate types, editable source, eligibility):
 Export dimensions/format/hash / rendered review / upload IDs and processing:
 Support/privacy links / privacy, age and accessibility answers verified:
-Default-on iCloud sync / production build and device evidence:
 Private physical-device review demo and reviewer steps, if requested:
 PPO / CPP / analytics / reviews / events / featuring: choice and reason:
 Baseline / hypothesis / measurement window / rollback assets:
