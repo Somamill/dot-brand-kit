@@ -19,6 +19,8 @@ Host inventory checked 20 November 2026. Availability and MCP connections vary b
 | Local 3D, lighting, rigging, rendered art | Blender background, Metal GPU when supported | Preserve project architecture, run supported validation and inspect rendered output; no global preference changes just for a job |
 | Godot | Compatible `godot --headless`, project test runner, native export tools | Match the project version; headless checks complement motion/playability review |
 | Image processing/export | Installed ImageMagick (`magick`), native project tools; vector/code-native assets where suitable | Verify dimensions, alpha, color/profile and actual image quality; use the image skill/tool for AI image creation/editing |
+| Local secret checks | Gitleaks through the existing Mac validator | Scan the clean checkout before project commands; fully redact values; review findings without blanket exclusions |
+| Targeted Python correctness | Ruff through the existing Mac validator | Check changed Python files with error-only rules; no auto-fixes or unrelated formatting; preserve project configuration |
 | Swift formatting/build logs/profiling | SwiftFormat (`swiftformat`), bundled `swift-format`, SwiftLint, xcbeautify; xctrace with its skill | Target changed files, preserve pipeline exit status; measure performance claims with native tools |
 | Dependencies/docs/search | `uv`, Node/npm, `ctx7`, `rg`, RTK; indexed code tools when useful | Respect lockfiles and use version-specific primary documentation; no private code/secrets in public doc queries |
 | Trend/ASO evidence | Apple public charts/Connect, licensed accessible research sources | Record dates, platform/storefront, metric, scope and estimate status; see TREND_RESEARCH.md |
@@ -86,3 +88,27 @@ bypass protections. In Peekaboo 4, use `peekaboo window list` (the older
 authorized app and leave external vision-provider uploads unconfigured unless
 explicitly authorized. A native window query demonstrates access, not UI
 correctness, visual quality or physical-device readiness.
+
+
+## Growing public tool journal
+
+[dot-agent-toolsuite](https://github.com/Somamill/dot-agent-toolsuite) is the public
+field guide for reviewed findings, safe tool receipts and approved kit provenance.
+Where installed, route supported CLI calls through its `scripts/run-tool.mjs`
+wrapper. Native connector/MCP outcomes can be recorded explicitly after observing
+the result. Never record raw arguments, output, source, private project names,
+personal paths, keys or precise timestamps. A passed command is not automatic
+proof of app correctness or production quality.
+
+At the end of a participating agent task, sync the kit and publish accumulated
+allowlisted data using the journal's documented scripts and existing approved
+background credential route. After an approved update to this kit's requirements
+or tool map, run that sync/publication path as part of finishing the kit task.
+Publication batches safe events; it does not create one remote commit per tool
+call. Failed authentication or publication leaves local records pending and must
+be reported rather than bypassed. Other working-tree files are not auto-uploaded.
+
+Coverage is limited to instrumented workflows and participating agents. This is
+not a universal interceptor or an instant webhook. Changes made outside these
+paths appear on the next agent/task sync. Keep GitHub Actions and the existing
+paused poller disabled; no new scheduler or service is required.

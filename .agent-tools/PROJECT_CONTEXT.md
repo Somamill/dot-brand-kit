@@ -21,3 +21,11 @@ LANGUAGES.json is a future policy baseline. It does not implement translations i
 ## Maintenance and releases
 
 Update the cited design docs and this context in the same change when the design/architecture/stack or acceptance gates change. Review shared requirements through the local updater; do not edit managed policy files directly. Keep unresolved gaps in the task/release evidence. Actions remain disabled; no new Apple publication is authorized by these documentation changes.
+
+
+## Public tool learning path
+
+The tool map includes Gitleaks and error-only Ruff checks in Mac Development
+Tools. dot-agent-toolsuite records safe outcomes and verified source provenance.
+Shared policy updates refresh that journal at task completion through its
+explicit scripts; unsupported calls and pending publication remain visible gaps.

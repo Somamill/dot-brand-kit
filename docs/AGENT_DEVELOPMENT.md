@@ -59,3 +59,13 @@ Check actual permission/authentication state before claiming readiness; prefer
 connectors and approved non-graphical credential wrappers to login dialogs.
 Missing access blocks that operation, not independent work. Shared setup does
 not grant publication, paid-service or additional security permissions.
+
+
+## Leave a public-safe learning receipt
+
+For relevant tool use, follow TOOL_CATALOG.md's public-journal route. Record only
+observed, allowlisted outcomes, review meaningful new lessons, and batch safe
+publication at task completion. When changing the approved shared requirements,
+refresh the journal's verified kit revision too. Keep private material out of the
+public journal; report uninstrumented coverage and pending publication honestly.
+The source workflow remains local and agent-triggered, with Actions disabled.
