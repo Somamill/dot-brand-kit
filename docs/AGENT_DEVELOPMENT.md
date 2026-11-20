@@ -36,7 +36,7 @@ Registered products must follow the [dot. Credits standard](https://github.com/S
 
 Every registered dot. App Store app on iOS, iPadOS, or macOS must integrate iCloud sync for relevant user data and enable it by default whenever the user's system iCloud account and app access are available. Respect an existing explicit opt-out and the system's iCloud controls. Keep core flows usable offline or without iCloud; save changes locally and resume sync when available without losing data. Use the private CloudKit database or the appropriate private iCloud API. Keep credentials, caches and device-specific state local. Keep large user-imported media local unless its sync behavior is explicitly designed and documented. Data-only repositories have no app sync requirement.
 
-Before release, verify the storage model, entitlements and production sync configuration using the [App Store playbook](APP_STORE_PLAYBOOK.md). A capability in Xcode alone does not satisfy this requirement.
+Wire the user data store to iCloud and configure the target’s entitlements and container. Enabling the capability in Xcode alone does not integrate sync. This policy requires integration only.
 
 ## Boundaries
 
