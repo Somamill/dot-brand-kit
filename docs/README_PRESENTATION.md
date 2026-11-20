@@ -1,0 +1,25 @@
+# README presentation
+
+Use a short badge row near the top of each repository README, after the title
+and before the main content. Follow it with a text navigation row for the
+places readers need most. This layout also works for independent projects
+with their existing names and identity.
+
+- Use the same flat, two-part badge style with a readable icon and label.
+  Keep the row short. Common choices are Releases, Docs, Support and Reddit.
+- Link badges to real destinations. Use version or download badges only when
+  the project publishes the corresponding data. Avoid invented stats, status
+  badges for disabled workflows and decorative duplicates.
+- Put quick links beneath the badges. Use meaningful text and separate links
+  with a vertical bar. Prefer the actual release, documentation or support
+  page for the project.
+- On portfolio pages and About sections, [use the social icon tiles](../foundation/social/)
+  for approved links. Render them at 32 points with accessible names. Keep
+  icon artwork and backgrounds consistent. Provide a text fallback where
+  inline images are unavailable. Read owner-approved destinations from the
+  shared Credits data, and omit services that have no confirmed account.
+- For independent repositories, label the Reddit destination as Max’s dot.
+  profile. Keep project support and branding distinct.
+
+The GitHub, Reddit and Ko-fi glyphs are from [Simple Icons at 32e0300](https://github.com/simple-icons/simple-icons/tree/32e030086fdc605196391aab28519b14dc4295b4).
+They identify those destinations. Their trademarks belong to their owners.

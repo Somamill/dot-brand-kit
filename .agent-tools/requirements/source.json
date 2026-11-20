@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "repository": "Somamill/dot-brand-kit",
-  "commit": "d5bfabf88b5fb54b50f18ce1630e1cd9703cde9c",
-  "policyVersion": 12,
+  "commit": "337e36e1ee095ffc718591a9c03ba71ac6fdb127",
+  "policyVersion": 14,
   "files": {
-    "AGENT_DEVELOPMENT.md": "735414056391bca4648d00e13b7511362b83dbe895a09e2eb86e63d9e2e9e814",
-    "TOOL_CATALOG.md": "b6b325cc02939beee5dde4b33c884f0ea06c795e2c8ef7e3886d788a10609f89",
+    "AGENT_DEVELOPMENT.md": "68d532983503d70fa5e012264557746f70ea86da096d92b09c0e6b7d252b037c",
+    "TOOL_CATALOG.md": "c419b9e792c78704efc0dcf832859a7e475ef8539ea0512f4f1096e0214bb6f0",
     "LOCALIZATION.md": "f3342e592e7e03d3f33e50c5ca2906e15c3ebb9f74004fa040080d837c5396a7",
-    "APP_STORE_PLAYBOOK.md": "63e735a8b5bf3cbc228f851015cc1877a730df8075e45b62eeea121657280d74",
+    "APP_STORE_PLAYBOOK.md": "ba8c96f0487c167b622fd54fc2735bd802689279b096ecfb77ec1d296bc8c48b",
     "TREND_RESEARCH.md": "f9c8cdeed421e42951b112256ac8a11006be525af0ddf398c4f4faf19b6ec8cf",
     "LANGUAGES.json": "18aa5b53e1d48f860077db279378d71146a1d6dd9944a4e9d1ecfeb9ab9d7aa3"
   }
