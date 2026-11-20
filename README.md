@@ -1,5 +1,9 @@
 # dot.
 
+[![Catalogue: Open](https://img.shields.io/badge/Catalogue-Open-26374D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Somamill/dot-brand-kit/blob/main/CATALOGUE.md) [![Reddit: dot. apps](https://img.shields.io/badge/Reddit-dot.%20apps-AD3000?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/dot-app/)
+
+[Catalogue](https://github.com/Somamill/dot-brand-kit/blob/main/CATALOGUE.md) | [Reddit](https://www.reddit.com/user/dot-app/) | [Contact](#contact)
+
 A quieter way to read, listen, and learn.
 
 dot. is an enduring product family and design system. Its [catalogue](CATALOGUE.md) is generated from explicit product profiles. The repository hosting a product is independent of its membership.

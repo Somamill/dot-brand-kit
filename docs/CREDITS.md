@@ -30,6 +30,8 @@ other in-app tipping prompt. Where no permitted route is established, show
 the creator and suite credits in the app and keep Ko-fi on the website and
 README. See [Apple's payment rules and gift exception](https://developer.apple.com/app-store/review/guidelines/#business).
 
+For repository and portfolio social icons, use the [README presentation standard](README_PRESENTATION.md). The suite’s Reddit profile is an additional place to share feedback. Keep the direct email option available.
+
 ## Adoption checks
 
 Open Credits in the app's normal entry point. Verify the approved URL,

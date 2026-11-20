@@ -32,7 +32,7 @@ For new or redesigned controls, use [dot. controls](https://github.com/Somamill/
 
 For new or changed UI, apply the [dot. copy guide](https://github.com/Somamill/dot-brand-kit/blob/main/kit/guidelines/copy.md). Remove repeated descriptions and generic filler first. Let layout, placement and native control state carry familiar interactions. Use short visible labels for unfamiliar actions, settings and meaningful consequences. Keep localized accessibility names and recovery copy. Check the changed flow in its real context, including a second language, and use accent or motion for feedback where it helps.
 
-Registered products must follow the [dot. Credits standard](https://github.com/Somamill/dot-brand-kit/blob/main/docs/CREDITS.md). Add Credits in About or Settings with Max’s approved Ko-fi link where the distribution rules permit it. Keep a shared list of owner-approved socials and omit the section while it is empty. Verify Credits during app adoption and before release.
+Registered products must follow the [dot. Credits standard](https://github.com/Somamill/dot-brand-kit/blob/main/docs/CREDITS.md). Add Credits in About or Settings with Max’s approved Ko-fi link where the distribution rules permit it. Keep a shared list of owner-approved socials and omit the section while it is empty. Use the shared public email for friendly feedback links in Credits, repository contact sections, and App Store support pages. Verify Credits during app adoption and before release.
 
 ## Default-on iCloud sync for App Store apps
 
@@ -59,3 +59,13 @@ Check actual permission/authentication state before claiming readiness; prefer
 connectors and approved non-graphical credential wrappers to login dialogs.
 Missing access blocks that operation, not independent work. Shared setup does
 not grant publication, paid-service or additional security permissions.
+
+
+## Leave a public-safe learning receipt
+
+For relevant tool use, follow TOOL_CATALOG.md's public-journal route. Record only
+observed, allowlisted outcomes, review meaningful new lessons, and batch safe
+publication at task completion. When changing the approved shared requirements,
+refresh the journal's verified kit revision too. Keep private material out of the
+public journal; report uninstrumented coverage and pending publication honestly.
+The source workflow remains local and agent-triggered, with Actions disabled.
