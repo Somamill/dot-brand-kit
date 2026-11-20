@@ -29,3 +29,18 @@ is clear. Keep each project's own support link for help and bug reports.
 
 The GitHub, Reddit and Ko-fi glyphs are from [Simple Icons at 32e0300](https://github.com/simple-icons/simple-icons/tree/32e030086fdc605196391aab28519b14dc4295b4).
 They identify those destinations. Their trademarks belong to their owners.
+
+## Social artwork
+
+![GitHub, Reddit and Ko-fi icon tiles](../foundation/social/icon-preview.png)
+
+Use the individual [GitHub](../foundation/social/github.png), [Reddit](../foundation/social/reddit.png) and [Ko-fi](../foundation/social/kofi.png) tiles as separate links. Keep the rounded background and high-contrast service glyphs consistent. Give each link an accessible name and follow the platform’s target-size guidance. The strip above is a preview. Use the destinations in the [shared Credits data](../foundation/credits.json). Add future networks once the owner confirms their profile URLs.
+
+| Asset | Export | Use |
+| --- | --- | --- |
+| [dot. Reddit avatar](../foundation/social/reddit/avatar.png) | 256 × 256 PNG | Keep the centered mark legible in a small circular crop. |
+| [dot. Reddit banner](../foundation/social/reddit/banner.png) | 1920 × 640 PNG | Keep the wordmark and accents in the middle so outer decoration can crop. |
+
+![dot. Reddit banner with the centered wordmark and product accents](../foundation/social/reddit/banner.png)
+
+For additional dot. social profiles, check the platform’s current artwork constraints and adapt the crop from the kit. Preview the avatar at small sizes and check the banner in narrow and wide layouts. After publishing, reload the profile and check both images and social links. Keep approved platform exports here for future use.
