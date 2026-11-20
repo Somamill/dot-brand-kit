@@ -83,6 +83,8 @@ Use the authorized background App Store Connect API or CLI first. For fields the
 
 Use the current Apple references for [app and compliance information](https://developer.apple.com/help/app-store-connect/reference/app-information/app-and-compliance-information), [age ratings](https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions), [screenshot requirements](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) and [review information](https://developer.apple.com/help/app-review/before-submitting-for-review/complete-review/).
 
+Use a public support page with the email from the [Credits standard](CREDITS.md). Invite questions, bug reports, and ideas. App Store Connect’s Support URL points to the page, and the App Review contact email is set separately.
+
 ### Record the release evidence
 
 For every Store listing/release task, include the following in the app's release record or PR. Use "not applicable" with a reason rather than silently skipping a platform or field:

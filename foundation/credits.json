@@ -4,5 +4,8 @@
     "service": "Ko-fi",
     "url": "https://ko-fi.com/somamill"
   },
-  "socials": []
+  "socials": [],
+  "contact": {
+    "email": "max@miller-max.com"
+  }
 }

@@ -11,6 +11,10 @@ with the product.
 
 - **Made by Max** and **Part of dot.** as concise credits. Localize the
   surrounding words and preserve names and URLs.
+- **Send feedback** opens a new email to `max@miller-max.com`, the main
+  public contact from the shared credit details. Make the address easy to copy.
+  Welcome questions, ideas, and bug reports. Suggested copy: “Got an idea or
+  spotted something odd? I’d love to hear from you.”
 - **Support on Ko-fi** links to Max's approved Ko-fi page on surfaces where
   an external tip link is permitted. Use a native link with a clear label
   and open the person's browser. Support is voluntary and provides no
@@ -20,8 +24,7 @@ with the product.
   with a `name` and an HTTPS `url`. Give each link a visible name and an
   accessible label. Hide the section while the list is empty.
 
-Place the support link on the product website and in the repository README
-where available. App Store editions must check the applicable App Review
+Publish the same email on the product website, repository README, and the public support page used in App Store Connect. Keep App Review contact details in their separate fields. Invite users to email freely and let them decide what to send. Do not attach logs, files, or personal data automatically. App Store editions must check the applicable App Review
 rules for the release and storefront before enabling a direct Ko-fi link or
 other in-app tipping prompt. Where no permitted route is established, show
 the creator and suite credits in the app and keep Ko-fi on the website and
