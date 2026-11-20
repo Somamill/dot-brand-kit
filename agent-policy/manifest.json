@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 16,
+  "policyVersion": 17,
   "files": {
     "AGENT_DEVELOPMENT.md": {
       "path": "docs/AGENT_DEVELOPMENT.md",
-      "sha256": "debd6716d78ef152cc3aabe4ddfe53337a33e32c3241e85943e45b113fc9119b"
+      "sha256": "8a635b20ffe0d7adeb5e161a201f85db298dccbd741b9ab28266d101943e62a9"
     },
     "TOOL_CATALOG.md": {
       "path": "docs/TOOL_CATALOG.md",

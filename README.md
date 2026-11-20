@@ -36,6 +36,10 @@ Use the [App Store playbook](docs/APP_STORE_PLAYBOOK.md) before Store metadata, 
 
 Build and release tooling is owned by [Mac Development Tools](https://github.com/Somamill/mac-development-tools). Each project configures its own jobs. Membership and brand validation are configured at the product level.
 
+## Social artwork and README presentation
+
+Find the approved avatar, banner and social icon tiles in the [GitHub and social presentation guide](docs/README_PRESENTATION.md).
+
 ## Contact
 
 Questions, ideas, or something that feels off? [Email Max](mailto:max@miller-max.com). Feedback is always welcome.
