@@ -1,12 +1,11 @@
 # dot. controls
 
-Use familiar symbols for repeat actions. Keep the controls mostly monochrome
-and give the app's registered accent to active states. Rounded buttons and a
-quiet background take a cue from [Nothing OS](https://nothing.community/en/d/61774).
-The icon set pairs a rounded stroke with small dots inside selected glyphs.
-The dots are part of the artwork. Use separate native indicators for status.
-The default glyph is 26 points and scales with text settings. Keep icons
-monochrome so product accents and state affordances remain clear.
+Use Apple’s standard symbols and controls across macOS, iPhone, and iPad.
+Use system navigation and toolbar items where the platform provides them.
+The inline icon button uses a 21-point SF Symbol that scales with text
+settings inside a minimum 44-point target. The borderless style lets groups
+of secondary actions sit together, while native controls handle interaction
+states. Use the app’s accent for selection or an active setting where useful.
 
 | Intent | Control | How to use it |
 | --- | --- | --- |
@@ -30,7 +29,8 @@ DotSwitch("Notifications", isOn: $notificationsEnabled)
 ```
 
 [Apple buttons](https://developer.apple.com/design/human-interface-guidelines/buttons) ·
-[Apple toggles](https://developer.apple.com/design/human-interface-guidelines/toggles)
+[Apple toggles](https://developer.apple.com/design/human-interface-guidelines/toggles) ·
+[SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols)
 
 ## Render the specimen on a Mac
 

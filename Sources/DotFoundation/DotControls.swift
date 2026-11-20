@@ -4,10 +4,20 @@ import SwiftUI
 public struct DotIconButton: View {
     public enum Symbol: Sendable {
         case back, close, search, settings, play, pause
+
+        fileprivate var systemName: String {
+            switch self {
+            case .back: return "chevron.backward"
+            case .close: return "xmark"
+            case .search: return "magnifyingglass"
+            case .settings: return "gearshape"
+            case .play: return "play.fill"
+            case .pause: return "pause.fill"
+            }
+        }
     }
 
-    @Environment(\.layoutDirection) private var layoutDirection
-    @ScaledMetric(relativeTo: .body) private var glyphSize = 26.0
+    @ScaledMetric(relativeTo: .body) private var glyphSize = 21.0
 
     private let symbol: Symbol
     private let title: LocalizedStringKey
@@ -20,23 +30,14 @@ public struct DotIconButton: View {
     }
 
     public var body: some View {
-        if #available(macOS 14, *) {
-            button.buttonBorderShape(.capsule)
-        } else {
-            button
-        }
-    }
-
-    private var button: some View {
         Button(action: action) {
-            DotGlyph(symbol: symbol)
-                .frame(width: glyphSize, height: glyphSize)
-                .scaleEffect(x: symbol == .back && layoutDirection == .rightToLeft ? -1 : 1, y: 1)
-                .accessibilityHidden(true)
+            Label(title, systemImage: symbol.systemName)
+                .labelStyle(.iconOnly)
+                .font(.system(size: glyphSize, weight: .medium))
                 .frame(minWidth: DotMetrics.minimumTarget, minHeight: DotMetrics.minimumTarget)
                 .contentShape(Rectangle())
         }
-        .buttonStyle(.bordered)
+        .buttonStyle(.borderless)
         .accessibilityLabel(Text(title))
         .help(Text(title))
     }

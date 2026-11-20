@@ -10,38 +10,27 @@ private struct ControlSpecimen: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: DotMetrics.spaceLg) {
-            HStack(alignment: .top) {
-                VStack(alignment: .leading, spacing: DotMetrics.spaceXs) {
-                    Text("dot. controls").font(.system(size: 34, weight: .semibold))
-                    Text(dark ? "Dark appearance" : "Light appearance")
-                        .foregroundStyle(.secondary)
-                }
-                Spacer()
-                Grid(horizontalSpacing: 5, verticalSpacing: 5) {
-                    ForEach(0..<3) { row in
-                        GridRow {
-                            ForEach(0..<5) { column in
-                                Circle().fill(.secondary.opacity(row + column < 5 ? 0.65 : 0.25))
-                                    .frame(width: 3, height: 3)
-                            }
-                        }
-                    }
-                }
-                .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: DotMetrics.spaceXs) {
+                Text("dot. controls").font(.largeTitle.weight(.semibold))
+                Text(dark ? "Dark appearance" : "Light appearance")
+                    .foregroundStyle(.secondary)
             }
             Divider()
             Text("Actions").font(.headline)
             HStack(spacing: DotMetrics.spaceSm) {
                 DotIconButton(.back, title: "Back") {}
                 DotIconButton(.close, title: "Close") {}
+                Divider().frame(height: 18)
                 DotIconButton(.search, title: "Search") {}
                 DotIconButton(.settings, title: "Settings") {}
+                Divider().frame(height: 18)
                 DotIconButton(playing ? .pause : .play, title: playing ? "Pause" : "Play") {
                     playing.toggle()
                 }
                 DotIconButton(.pause, title: "Pause") {}
                     .disabled(true)
             }
+            .tint(.primary)
             Divider()
             Text("Settings").font(.headline)
             DotSwitch("Notifications", isOn: $enabled)
@@ -52,10 +41,11 @@ private struct ControlSpecimen: View {
                 Spacer()
                 DotIconButton(.back, title: "رجوع") {}
                     .environment(\.layoutDirection, .rightToLeft)
+                    .tint(.primary)
             }
         }
         .padding(28)
-        .frame(width: 450, height: 450, alignment: .topLeading)
+        .frame(width: 450, height: 415, alignment: .topLeading)
         .background(Color(nsColor: .windowBackgroundColor))
         .tint(dark ? Color(red: 0.47, green: 0.78, blue: 0.92)
                    : Color(red: 0.09, green: 0.38, blue: 0.52))
@@ -74,7 +64,7 @@ struct RenderControls {
             ControlSpecimen(dark: true).environment(\.colorScheme, .dark)
         }
         let view = NSHostingView(rootView: artboard)
-        let frame = NSRect(x: 0, y: 0, width: 900, height: 450)
+        let frame = NSRect(x: 0, y: 0, width: 900, height: 415)
         let window = NSWindow(contentRect: frame, styleMask: .borderless,
                               backing: .buffered, defer: false)
         window.contentView = view
