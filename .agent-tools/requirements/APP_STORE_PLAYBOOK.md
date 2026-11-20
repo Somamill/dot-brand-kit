@@ -67,6 +67,24 @@ An extra preview or fancier treatment is a hypothesis, not guaranteed improvemen
 
 ## 7. Release packet and completion gate
 
+### Complete App Store Connect
+
+For each App Store setup, version, or release task, inspect the actual App Store Connect record for every in-scope platform, locale, and storefront. Complete every required or applicable field and resolve submission warnings against the selected build. Agents own routine fixes: generate and verify missing assets, update the asset catalog, repair broken links, prepare or update the app’s published support and privacy pages from verified facts, and save corrected metadata and declarations within the task’s authorization. Continue the rest of the work if one field needs an owner-only answer.
+
+| Area | Complete and check against the release |
+| --- | --- |
+| Build and artwork | Select the intended build. Check the compiled app icon and any required listing artwork, including platform variants. Correct the asset catalog and rebuild if the icon itself is wrong. Populate the required screenshot sets and applicable previews. |
+| Product page | Complete the name, subtitle, category, description, keywords, support URL, and applicable marketing, copyright and version fields. Check localized metadata and media for each intended storefront. |
+| Age and accessibility | Answer the age-rating questionnaire from actual content and capabilities, including web access, user content and communication where present. Complete applicable accessibility declarations from features the app actually supports. |
+| Privacy and compliance | Check that the privacy policy and labels match the build, including third-party SDKs and enabled services. Complete applicable content rights, encryption/export, license, trader and region-specific declarations using documented facts and authorized decisions. |
+| Review and distribution | Complete reviewer contact, notes, demo access, sample files, requested evidence, and applicable availability, pricing and release settings. Use the owner’s approved commercial and distribution choices. |
+
+Use the authorized background App Store Connect API or CLI first. For fields the API does not expose, use the authorized App Store Connect browser workflow. Reopen or re-read saved values and check processing before calling the record complete. Escalate only when a material fact is unavailable, an owner-only legal declaration or agreement is required, or access or authorization is missing. Never guess compliance answers, publish unsupported claims, or bypass an Apple requirement. Preparing or saving a record does not authorize submission or release.
+
+Use the current Apple references for [app and compliance information](https://developer.apple.com/help/app-store-connect/reference/app-information/app-and-compliance-information), [age ratings](https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions), [screenshot requirements](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications) and [review information](https://developer.apple.com/help/app-review/before-submitting-for-review/complete-review/).
+
+### Record the release evidence
+
 For every Store listing/release task, include the following in the app's release record or PR. Use "not applicable" with a reason rather than silently skipping a platform or field:
 
 ```text
@@ -77,7 +95,7 @@ Locales / name / subtitle / keywords / category / description / promo / What's N
 Screenshot story (order, benefit, real capture, build/device/OS, locale, rights):
 Previews and creative assets (separate types, editable source, eligibility):
 Export dimensions/format/hash / rendered review / upload IDs and processing:
-Support/privacy links / privacy, age and accessibility answers verified:
+App Store Connect fields and assets complete / declarations and URLs checked:
 Private physical-device review demo and reviewer steps, if requested:
 PPO / CPP / analytics / reviews / events / featuring: choice and reason:
 Baseline / hypothesis / measurement window / rollback assets:
