@@ -21,5 +21,11 @@ with their existing names and identity.
 - For independent repositories, label the Reddit destination as Max’s dot.
   profile. Keep project support and branding distinct.
 
+Include a visible **Support on Ko-fi** link in the README navigation or
+Contact section. Use https://ko-fi.com/somamill, the support destination in
+the shared Credits data. If using an icon tile, retain an accessible name.
+On independent projects, label it **Support Max on Ko-fi** so the destination
+is clear. Keep each project's own support link for help and bug reports.
+
 The GitHub, Reddit and Ko-fi glyphs are from [Simple Icons at 32e0300](https://github.com/simple-icons/simple-icons/tree/32e030086fdc605196391aab28519b14dc4295b4).
 They identify those destinations. Their trademarks belong to their owners.

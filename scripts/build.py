@@ -32,7 +32,7 @@ for theme in ['light', 'dark']:
 policy_files = ('AGENT_DEVELOPMENT.md', 'TOOL_CATALOG.md', 'LOCALIZATION.md',
                 'APP_STORE_PLAYBOOK.md', 'TREND_RESEARCH.md', 'LANGUAGES.json')
 repo = root.parent
-manifest = {'schemaVersion': 1, 'policyVersion': 15, 'files': {
+manifest = {'schemaVersion': 1, 'policyVersion': 16, 'files': {
     name: {'path': 'docs/' + name, 'sha256': hashlib.sha256((repo / 'docs' / name).read_bytes()).hexdigest()}
     for name in policy_files}}
 (repo / 'agent-policy').mkdir(exist_ok=True)

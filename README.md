@@ -39,3 +39,5 @@ Build and release tooling is owned by [Mac Development Tools](https://github.com
 ## Contact
 
 Questions, ideas, or something that feels off? [Email Max](mailto:max@miller-max.com). Feedback is always welcome.
+
+[Support on Ko-fi](https://ko-fi.com/somamill).
