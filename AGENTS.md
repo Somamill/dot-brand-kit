@@ -23,3 +23,13 @@ UI/release work must read `LOCALIZATION.md` and `LANGUAGES.json`: future system/
 ## Membership and versioned foundations
 
 Edit product profiles under `products/` and regenerate with `python3 scripts/foundation.py`. Verify with `python3 scripts/foundation.py --check`, the existing kit checks and a Swift package build when Swift components change. Keep feature behavior in its owning app and confirm membership at its directory scope. Technical tooling is owned by Somamill/mac-development-tools.
+
+
+## Keep the tool journal in step
+
+After an approved shared-requirements or tool-map update, refresh the public
+dot-agent-toolsuite journal through its documented kit-sync and safe-publication
+commands. Record observed tool outcomes through the supported wrapper or explicit
+allowlisted receipt path. Never upload raw logs, arguments, credentials, private
+code or personal paths. Report pending publication or missing instrumentation.
+No Actions workflow, webhook, additional credential scope or poller is authorized.
