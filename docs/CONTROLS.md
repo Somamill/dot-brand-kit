@@ -1,5 +1,8 @@
 # dot. controls
 
+Use the [dot. copy guide](../kit/guidelines/copy.md) to choose between symbols,
+short labels and supporting text.
+
 Use Apple’s standard symbols and controls across macOS, iPhone, and iPad.
 Use system navigation and toolbar items where the platform provides them.
 The inline icon button uses a 21-point SF Symbol that scales with text
