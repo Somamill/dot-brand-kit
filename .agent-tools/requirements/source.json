@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "repository": "Somamill/dot-brand-kit",
-  "commit": "14f0f25a6feff0550474c1cc224b471882142d4b",
-  "policyVersion": 7,
+  "commit": "5970c206eaa51a36fbb135027fafc0717fcc0cfe",
+  "policyVersion": 8,
   "files": {
-    "AGENT_DEVELOPMENT.md": "7a4456d311ec74ae9dd6909efa2c46314a4eedab33107eb8e7e7ef1124f6fed3",
+    "AGENT_DEVELOPMENT.md": "21f317966ff7d86d7f99fdf3c44d77cdd2255764bac0f7a437ccb4a14aded8e2",
     "TOOL_CATALOG.md": "b6b325cc02939beee5dde4b33c884f0ea06c795e2c8ef7e3886d788a10609f89",
     "LOCALIZATION.md": "f3342e592e7e03d3f33e50c5ca2906e15c3ebb9f74004fa040080d837c5396a7",
     "APP_STORE_PLAYBOOK.md": "668594f904bd1d6e1d09511d6e9691276b8b49a88ae1e92cf3de553791522d46",
