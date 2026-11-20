@@ -4,6 +4,8 @@ import re
 import sys
 from pathlib import Path
 
+from palette import validate_palette
+
 root = Path(__file__).resolve().parents[1]
 tokens = json.loads((root / 'foundation/tokens.json').read_text())
 registry = {}
@@ -19,9 +21,7 @@ for path in sorted((root / 'products').glob('*.json')):
             or not re.fullmatch(r'\.|[\w-]+(?:/[\w-]+)*', identity[1])):
         raise ValueError(f'Invalid or duplicate member in {path.name}')
     seen.add(identity)
-    for color in product.get('accent', {}).values():
-        if not re.fullmatch(r'#[0-9A-Fa-f]{6}', color):
-            raise ValueError(f'Invalid accent in {path.name}')
+    validate_palette(path.stem, product, tokens['colors'], registry)
     if 'mark' in product and (product['mark'] != f'products/{path.stem}.svg'
                               or not (root / product['mark']).is_file()):
         raise ValueError(f'Invalid mark in {path.name}')

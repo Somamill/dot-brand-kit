@@ -7,6 +7,8 @@ import re
 import subprocess
 import tempfile
 
+from palette import product_css
+
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('member', help='Product key from the registry')
@@ -31,6 +33,8 @@ files = {name: read('foundation/' + name) for name in ('tokens.json', 'tokens.cs
 tokens = json.loads(files['tokens.json'])
 if tokens['schemaVersion'] != 1 or not re.fullmatch(r'2\.\d+\.\d+', tokens['version']):
     parser.error('Expected a compatible 2.x foundation')
+if tuple(map(int, tokens['version'].split('.'))) >= (2, 1, 0) and 'accent' in profile:
+    files['tokens.css'] += product_css(profile, tokens['colors']).encode()
 files['product.json'] = json.dumps(profile, indent=2).encode() + b'\n'
 if 'mark' in profile:
     path = f'products/{args.member}.svg'

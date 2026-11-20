@@ -8,11 +8,11 @@ Canonical dot. identity and shared agent/release requirements; no standalone app
 
 ## Actual design/context sources
 
-kit/tokens.json; kit/guidelines; docs/MULTI_REPO.md; docs/APP_STORE_PLAYBOOK.md; docs/AGENT_DEVELOPMENT.md
+foundation/tokens.json; products/*.json; docs/FOUNDATION.md; kit/tokens.json; kit/guidelines; docs/MULTI_REPO.md; docs/APP_STORE_PLAYBOOK.md; docs/AGENT_DEVELOPMENT.md
 
 ## Tools and checks
 
-Dependency-free Python token/manifest build and validators; policy sync tests. Run python3 scripts/build.py, python3 kit/check.py and python3 tests/test_policy_sync.py. For task-specific tool choice, verify current availability/configuration using the shared tool map. Record the actual checks and rendered evidence in the task PR; this context file alone is not test evidence.
+Dependency-free Python token/manifest build and validators; policy sync tests. Run python3 scripts/foundation.py --check, python3 scripts/build.py, python3 kit/check.py and python3 tests/test_policy_sync.py. For task-specific tool choice, verify current availability/configuration using the shared tool map. Record the actual checks and rendered evidence in the task PR; this context file alone is not test evidence.
 
 ## Localization readiness
 

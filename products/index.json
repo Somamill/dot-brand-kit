@@ -20,15 +20,19 @@
     "scope": ".",
     "kind": "app",
     "accent": {
-      "light": "#5557A8",
-      "dark": "#C3BDF7"
+      "light": "#42684B",
+      "dark": "#B6E3C4"
     },
     "mark": "products/immersed.svg",
     "platforms": [
       "ios",
       "ipados",
       "macos"
-    ]
+    ],
+    "onAccent": {
+      "light": "#FFFFFF",
+      "dark": "#11281B"
+    }
   },
   "kotoba-atlas": {
     "name": "Kotoba Atlas",
@@ -58,8 +62,8 @@
     "scope": "ios",
     "kind": "app",
     "accent": {
-      "light": "#42684B",
-      "dark": "#A9C7AE"
+      "light": "#5557A8",
+      "dark": "#C3BDF7"
     },
     "mark": "products/sovo.svg",
     "platforms": [

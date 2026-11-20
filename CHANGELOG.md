@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- Require evidence of a project-specific background check before screen control and keep translation review labels internal.
 
 - Connect agent-maintained project context and local policy syncing across repositories; require current cross-category research, continuous screenshot design checks and future system-default multilingual UI/Store coverage.
 
@@ -46,3 +47,6 @@
 - Added product-scoped membership and an app-independent Swift and CSS foundation.
 - Added deterministic catalogue and token generation, a script fixture and commit-pinned adoption.
 - Moved technical tooling ownership to Mac Development Tools. The 1.x snapshot remains available for migration.
+
+## 2.1.0
+- Apply registered app palettes during snapshot adoption, validate light and dark accent contrast and separation, and use a neutral shared fallback.

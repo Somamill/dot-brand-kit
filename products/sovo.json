@@ -4,8 +4,8 @@
   "scope": "ios",
   "kind": "app",
   "accent": {
-    "light": "#42684B",
-    "dark": "#A9C7AE"
+    "light": "#5557A8",
+    "dark": "#C3BDF7"
   },
   "mark": "products/sovo.svg",
   "platforms": [

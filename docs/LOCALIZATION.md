@@ -20,6 +20,13 @@ Inventory screens, menus, onboarding, errors, empty/loading states, settings, ac
 
 Use native/layout-leading concepts and test Arabic RTL, mixed-script text, long German/Russian strings, Hindi/Bangla shaping, CJK line breaking, Dynamic Type, VoiceOver and font glyph coverage. Machine/agent translations are drafts until qualified language review; record who/what reviewed which version. Never invent a native-speaker sign-off. Tests verify missing keys, placeholders/plurals, default/override/fallback behavior and representative localized native flows; screenshots of translated text alone do not prove functional correctness.
 
+Render the localized text directly. Keep translation source and review status in internal
+release evidence. Do not ship translator notes, AI attribution, draft badges, “unverified
+text” labels or their localized equivalents in app UI, accessibility text, Store copy,
+screenshots, or support material. Check changed locales and published assets for these
+labels and their equivalents before release. Resolve a failed internal review through
+the existing review or release-exception process.
+
 ## App Store and release evidence
 
 Localize relevant name/subtitle/keywords/description/promo/What's New, feature-card text, previews and support text for each target supported by Apple. Re-research intent per language instead of translating the keyword comma list. UI BCP-47 tags and App Store Connect locale identifiers are not interchangeable: resolve Apple's current labels/shortcodes before upload. Apple added Bangla and Urdu among new metadata languages in March 2026; old supported-language lists are stale. Verify current platform/locale availability and the live record.
