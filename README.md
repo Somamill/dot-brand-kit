@@ -31,3 +31,7 @@ Use the [App Store playbook](docs/APP_STORE_PLAYBOOK.md) before Store metadata, 
 ## Shared Mac tooling
 
 Build and release tooling is owned by [Mac Development Tools](https://github.com/Somamill/mac-development-tools). Each project configures its own jobs. Membership and brand validation are configured at the product level.
+
+## Contact
+
+Questions, ideas, or something that feels off? [Email Max](mailto:max@miller-max.com). Feedback is always welcome.
