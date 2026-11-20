@@ -37,3 +37,13 @@ Use existing authorization without repeatedly asking about reversible setup. Kee
 ## Shared-policy maintenance
 
 Approved policy lives in Somamill/dot-brand-kit. The local sync downloads only a fixed allowlist of Markdown/JSON requirements at a single commit, checks a versioned SHA-256 manifest and records provenance. It never downloads/runs scripts or rewrites AGENTS.md/DESIGN.md. Changes to the sync code itself require a reviewed code update. Review changed requirements under the owner's current instructions; content hashes establish byte consistency, not third-party attestation. Agent-authored local design updates and native checks remain the working agent's responsibility.
+
+## Apply the relevant development-tool route
+
+Use the matching workflow in `TOOL_CATALOG.md` for GitHub, Swift checks, Apple
+builds, native control, web flows and App Store Connect. Load the applicable
+installed skill and preserve existing project entry points and pinned tools.
+Check actual permission/authentication state before claiming readiness; prefer
+connectors and approved non-graphical credential wrappers to login dialogs.
+Missing access blocks that operation, not independent work. Shared setup does
+not grant publication, paid-service or additional security permissions.

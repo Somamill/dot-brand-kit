@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 6,
+  "policyVersion": 7,
   "files": {
     "AGENT_DEVELOPMENT.md": {
       "path": "docs/AGENT_DEVELOPMENT.md",
-      "sha256": "228dff5fd31654bbedb7028f4a54bb5d4f4dc4f9caf5dde05852454fe9373e69"
+      "sha256": "7a4456d311ec74ae9dd6909efa2c46314a4eedab33107eb8e7e7ef1124f6fed3"
     },
     "TOOL_CATALOG.md": {
       "path": "docs/TOOL_CATALOG.md",
-      "sha256": "d575b4d2009cf3b9d7fece8627d49cd092e0c55286ecc162a75654fca6d0e6e9"
+      "sha256": "b6b325cc02939beee5dde4b33c884f0ea06c795e2c8ef7e3886d788a10609f89"
     },
     "LOCALIZATION.md": {
       "path": "docs/LOCALIZATION.md",
