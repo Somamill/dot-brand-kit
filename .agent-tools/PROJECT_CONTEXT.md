@@ -8,7 +8,7 @@ Canonical dot. identity and shared agent/release requirements; no standalone app
 
 ## Actual design/context sources
 
-foundation/tokens.json; products/*.json; docs/FOUNDATION.md; docs/CONTROLS.md; Sources/DotFoundation/DotControls.swift; kit/tokens.json; kit/guidelines; docs/MULTI_REPO.md; docs/APP_STORE_PLAYBOOK.md; docs/AGENT_DEVELOPMENT.md
+foundation/tokens.json; products/*.json; docs/FOUNDATION.md; docs/CONTROLS.md; kit/guidelines/copy.md; Sources/DotFoundation/DotControls.swift; kit/tokens.json; kit/guidelines; docs/MULTI_REPO.md; docs/APP_STORE_PLAYBOOK.md; docs/AGENT_DEVELOPMENT.md
 
 ## Tools and checks
 
