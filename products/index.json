@@ -1,14 +1,14 @@
 {
-  "clean": {
-    "name": "clean.",
-    "repository": "Somamill/dot-clean",
+  "aki": {
+    "name": "aki.",
+    "repository": "Somamill/dot-aki",
     "scope": ".",
     "kind": "app",
     "accent": {
       "light": "#176184",
       "dark": "#79C8EB"
     },
-    "mark": "products/clean.svg",
+    "mark": "products/aki.svg",
     "platforms": [
       "macos"
     ]
