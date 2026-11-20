@@ -1,1 +1,20 @@
-{"name":"Immersed.","repository":"Somamill/immersed","scope":".","kind":"app","accent":{"light":"#42684B","dark":"#B6E3C4"},"mark":"products/immersed.svg","platforms":["ios","ipados","macos"],"onAccent":{"light":"#FFFFFF","dark":"#11281B"}}
+{
+  "name": "Immersed.",
+  "repository": "Somamill/immersed",
+  "scope": ".",
+  "kind": "app",
+  "accent": {
+    "light": "#42684B",
+    "dark": "#B6E3C4"
+  },
+  "mark": "products/immersed.svg",
+  "platforms": [
+    "ios",
+    "ipados",
+    "macos"
+  ],
+  "onAccent": {
+    "light": "#FFFFFF",
+    "dark": "#11281B"
+  }
+}
