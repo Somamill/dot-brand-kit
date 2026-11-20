@@ -8,6 +8,8 @@ For native interaction, prefer system menus, search, alerts, progress and sheets
 
 The [script fixture](../fixtures/scripts.html) exercises mixed direction, ruby, regional glyphs, Cyrillic and enlarged German text. Test the real rendering stack before declaring script support. Use the [Store playbook and release packet](APP_STORE_PLAYBOOK.md) for presentation. Shared design changes must pass generation and validation before adoption. The initial 1.x layout stays available for existing importers, with new generic components developed in the versioned foundation.
 
+For common actions and binary settings, start with the [dot. controls](CONTROLS.md).
+
 ## Desktop update experience
 
 For directly distributed macOS apps, use a compatible signed updater such as [Sparkle](https://sparkle-project.org/documentation/). Provide automatic availability checks, a visible Check for Updates command, release notes and Later/Skip choices. Require HTTPS, verified update signatures, a signed and notarized app, and channel/version compatibility. Preserve update preferences and document how to recover a prior compatible release. Mac App Store executable updates go through the Store under [Apple’s review guidelines](https://developer.apple.com/app-store/review/guidelines/). Dictionary data has its own version and integrity checks. The tooling repository owns reusable technical orchestration; product-specific signing and delivery configuration stays with the product.
