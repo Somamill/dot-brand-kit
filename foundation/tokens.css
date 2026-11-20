@@ -5,7 +5,7 @@
   --dot-text: #242622;
   --dot-secondaryText: #60645C;
   --dot-border: #DADDD5;
-  --dot-accent: #42684B;
+  --dot-accent: #4C5054;
   --dot-onAccent: #FFFFFF;
 }
 [data-dot-theme="dark"] {
@@ -14,7 +14,7 @@
   --dot-text: #F4F3EC;
   --dot-secondaryText: #ADB6A7;
   --dot-border: #414B3E;
-  --dot-accent: #A9C7AE;
+  --dot-accent: #C2C5C8;
   --dot-onAccent: #151815;
 }
 :root {

@@ -1,16 +1,1 @@
-{
-  "name": "sovo.",
-  "repository": "Somamill/sovo",
-  "scope": "ios",
-  "kind": "app",
-  "accent": {
-    "light": "#42684B",
-    "dark": "#A9C7AE"
-  },
-  "mark": "products/sovo.svg",
-  "platforms": [
-    "ios",
-    "ipados",
-    "macos"
-  ]
-}
+{"name":"sovo.","repository":"Somamill/sovo","scope":"ios","kind":"app","accent":{"light":"#5557A8","dark":"#C3BDF7"},"mark":"products/sovo.svg","platforms":["ios","ipados","macos"]}
