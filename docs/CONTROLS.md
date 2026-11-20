@@ -3,8 +3,10 @@
 Use familiar symbols for repeat actions. Keep the controls mostly monochrome
 and give the app's registered accent to active states. Rounded buttons and a
 quiet background take a cue from [Nothing OS](https://nothing.community/en/d/61774).
-Keep the actionable shapes crisp. Dot patterns can decorate a surrounding
-surface when they fit the app.
+The icon set pairs a rounded stroke with small dots inside selected glyphs.
+The dots are part of the artwork. Use separate native indicators for status.
+The default glyph is 26 points and scales with text settings. Keep icons
+monochrome so product accents and state affordances remain clear.
 
 | Intent | Control | How to use it |
 | --- | --- | --- |

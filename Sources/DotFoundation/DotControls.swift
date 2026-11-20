@@ -2,20 +2,12 @@ import SwiftUI
 
 /// A compact action for a familiar symbol. Supply a localized action name.
 public struct DotIconButton: View {
-    public enum Symbol {
+    public enum Symbol: Sendable {
         case back, close, search, settings, play, pause
-
-        fileprivate var systemName: String {
-            switch self {
-            case .back: return "chevron.backward"
-            case .close: return "xmark"
-            case .search: return "magnifyingglass"
-            case .settings: return "gearshape"
-            case .play: return "play.fill"
-            case .pause: return "pause.fill"
-            }
-        }
     }
+
+    @Environment(\.layoutDirection) private var layoutDirection
+    @ScaledMetric(relativeTo: .body) private var glyphSize = 26.0
 
     private let symbol: Symbol
     private let title: LocalizedStringKey
@@ -37,9 +29,10 @@ public struct DotIconButton: View {
 
     private var button: some View {
         Button(action: action) {
-            Label(title, systemImage: symbol.systemName)
-                .labelStyle(.iconOnly)
-                .font(.body.weight(.semibold))
+            DotGlyph(symbol: symbol)
+                .frame(width: glyphSize, height: glyphSize)
+                .scaleEffect(x: symbol == .back && layoutDirection == .rightToLeft ? -1 : 1, y: 1)
+                .accessibilityHidden(true)
                 .frame(minWidth: DotMetrics.minimumTarget, minHeight: DotMetrics.minimumTarget)
                 .contentShape(Rectangle())
         }

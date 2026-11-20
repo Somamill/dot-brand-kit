@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+- Draw larger dot. glyphs with rounded strokes and integrated dots.
 - Add native symbol-first buttons and settings switches with shared usage guidance.
 - Require evidence of a project-specific background check before screen control and keep translation review labels internal.
 
