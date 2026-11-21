@@ -35,8 +35,8 @@
     }
   },
   "immersed": {
-    "name": "Immersed.",
-    "repository": "Somamill/immersed",
+    "name": "narai.",
+    "repository": "Somamill/narai",
     "scope": ".",
     "kind": "app",
     "accent": {
@@ -55,7 +55,7 @@
     },
     "publicLinks": {
       "App Store": "https://apps.apple.com/us/app/immersed-learn-japanese/id6834110293",
-      "Open-source Mac edition": "https://github.com/Somamill/immersed-community"
+      "Immersed. for Mac": "https://github.com/Somamill/immersed-community"
     }
   },
   "kotoba-atlas": {
@@ -65,8 +65,8 @@
     "kind": "data"
   },
   "read": {
-    "name": "read.",
-    "repository": "Somamill/read",
+    "name": "yomiba.",
+    "repository": "Somamill/yomiba",
     "scope": ".",
     "kind": "app",
     "accent": {
