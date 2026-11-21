@@ -51,8 +51,8 @@ Use the [product registry](../products/index.json) for member scope and [Mac Dev
 
 ## Public and private repository boundaries
 
-The application source repositories for read., sovo., aki., dict., and the Immersed. App Store editions are private. The product registry can identify their source repositories for authorized agents. The public catalogue should link to Store listings, public support, or the public community edition.
+The application source repositories for yomiba., sovo., aki., dict., and narai. are private. The product registry can identify their source repositories for authorized agents. The public catalogue should link to Store listings, public support, or the public community edition.
 
-Somamill/immersed-community owns the open-source, direct-download Mac app, DMG, Homebrew formula, and its runtime. Somamill/immersed owns the App Store source for Mac, iPhone, and iPad. Make separate commits and releases for the two editions. Keep Store source, internal branches and tags, release credentials, and private review materials out of public repositories and artifacts. Public support and privacy policies belong at stable public URLs so the Store listings can link to them.
+Somamill/immersed-community owns the open-source, direct-download Mac app, DMG, Homebrew formula, and its runtime. Somamill/narai owns the App Store source for Mac, iPhone, and iPad. Make separate commits and releases for the two editions. Keep Store source, internal branches and tags, release credentials, and private review materials out of public repositories and artifacts. Public support and privacy policies belong at stable public URLs so the Store listings can link to them.
 
 Kotoba Atlas, the dot. brand kit and the dot. agent toolsuite are public. Preserve the separate technical tooling and product ownership boundaries. Use local verification with GitHub Actions disabled.
