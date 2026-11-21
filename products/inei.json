@@ -1,0 +1,22 @@
+{
+  "name": "inei.",
+  "repository": "Somamill/inei",
+  "scope": ".",
+  "kind": "app",
+  "accent": {
+    "light": "#171717",
+    "dark": "#F5F5F5"
+  },
+  "onAccent": {
+    "light": "#FFFFFF",
+    "dark": "#171717"
+  },
+  "mark": "products/inei.svg",
+  "platforms": [
+    "ios",
+    "ipados"
+  ],
+  "publicLinks": {
+    "Feedback": "mailto:max@miller-max.com"
+  }
+}
