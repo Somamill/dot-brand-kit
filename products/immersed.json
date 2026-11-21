@@ -16,5 +16,9 @@
   "onAccent": {
     "light": "#FFFFFF",
     "dark": "#11281B"
+  },
+  "publicLinks": {
+    "App Store": "https://apps.apple.com/us/app/immersed-learn-japanese/id6834110293",
+    "Open-source Mac edition": "https://github.com/Somamill/immersed-community"
   }
 }

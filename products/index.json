@@ -11,7 +11,10 @@
     "mark": "products/aki.svg",
     "platforms": [
       "macos"
-    ]
+    ],
+    "publicLinks": {
+      "Support": "https://github.com/Somamill/aki-support"
+    }
   },
   "dict": {
     "name": "dict.",
@@ -26,6 +29,9 @@
     "accent": {
       "light": "#D52236",
       "dark": "#FF7584"
+    },
+    "publicLinks": {
+      "Support": "https://github.com/Somamill/Somamill/blob/main/support/dict/SUPPORT.md"
     }
   },
   "immersed": {
@@ -46,6 +52,10 @@
     "onAccent": {
       "light": "#FFFFFF",
       "dark": "#11281B"
+    },
+    "publicLinks": {
+      "App Store": "https://apps.apple.com/us/app/immersed-learn-japanese/id6834110293",
+      "Open-source Mac edition": "https://github.com/Somamill/immersed-community"
     }
   },
   "kotoba-atlas": {
@@ -68,7 +78,10 @@
       "ios",
       "ipados",
       "macos"
-    ]
+    ],
+    "publicLinks": {
+      "App Store": "https://apps.apple.com/us/app/read-books-highlights/id6834109889"
+    }
   },
   "sovo": {
     "name": "sovo.",
@@ -84,6 +97,9 @@
       "ios",
       "ipados",
       "macos"
-    ]
+    ],
+    "publicLinks": {
+      "App Store": "https://apps.apple.com/us/app/sovo/id6834434329"
+    }
   }
 }

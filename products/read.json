@@ -12,5 +12,8 @@
     "ios",
     "ipados",
     "macos"
-  ]
+  ],
+  "publicLinks": {
+    "App Store": "https://apps.apple.com/us/app/read-books-highlights/id6834109889"
+  }
 }

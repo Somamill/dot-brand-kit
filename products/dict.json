@@ -11,5 +11,8 @@
   "accent": {
     "light": "#D52236",
     "dark": "#FF7584"
+  },
+  "publicLinks": {
+    "Support": "https://github.com/Somamill/Somamill/blob/main/support/dict/SUPPORT.md"
   }
 }

@@ -51,11 +51,17 @@ for key, value in tokens['radius'].items():
 swift += [f"    public static let minimumTarget: Double = {tokens['interaction']['minTarget']}", '}']
 catalogue = ['# dot. catalogue', '', 'A quieter way to read, listen, and learn.', '']
 for product in registry.values():
+    if 'publicLinks' in product:
+        links = ' · '.join(f'[{label}]({url})' for label, url in product['publicLinks'].items())
+        catalogue.append(f"- {product['name']} · {links}")
+        continue
+
     suffix = ' · Dictionary data' if product['kind'] == 'data' else ''
     url = 'https://github.com/' + product['repository']
     if product['scope'] != '.':
         url += '/tree/main/' + product['scope']
     catalogue.append(f"- [{product['name']}]({url}){suffix}")
+catalogue += ['', '[App support and privacy policies](https://github.com/Somamill/Somamill/tree/main/support)']
 outputs = {
     'foundation/tokens.css': '\n'.join(css) + '\n',
     'Sources/DotFoundation/DotMetrics.swift': '\n'.join(swift) + '\n',

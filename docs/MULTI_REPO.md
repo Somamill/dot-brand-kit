@@ -48,3 +48,11 @@ These sources inform the local policy; this setup does not claim a SLSA complian
 Store work also follows [the release and growth playbook](APP_STORE_PLAYBOOK.md). Apps pin a reviewed guide commit and maintain their own positioning/feature-evidence brief. A shared visual system does not mean identical keywords, simultaneous versions or the same feature claims.
 
 Use the [product registry](../products/index.json) for member scope and [Mac Development Tools](https://github.com/Somamill/mac-development-tools) for local technical orchestration. Its validation jobs are configured separately from dot. membership.
+
+## Public and private repository boundaries
+
+The application source repositories for read., sovo., aki., dict., and the Immersed. App Store editions are private. The product registry can identify their source repositories for authorized agents. The public catalogue should link to Store listings, public support, or the public community edition.
+
+Somamill/immersed-community owns the open-source, direct-download Mac app, DMG, Homebrew formula, and its runtime. Somamill/immersed owns the App Store source for Mac, iPhone, and iPad. Make separate commits and releases for the two editions. Keep Store source, internal branches and tags, release credentials, and private review materials out of public repositories and artifacts. Public support and privacy policies belong at stable public URLs so the Store listings can link to them.
+
+Kotoba Atlas, the dot. brand kit and the dot. agent toolsuite are public. Preserve the separate technical tooling and product ownership boundaries. Use local verification with GitHub Actions disabled.
