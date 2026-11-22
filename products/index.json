@@ -84,7 +84,8 @@
     "name": "Kotoba Atlas",
     "repository": "Somamill/kotoba-atlas",
     "scope": ".",
-    "kind": "data"
+    "kind": "data",
+    "mark": "products/kotoba-atlas.svg"
   },
   "read": {
     "name": "yomiba.",

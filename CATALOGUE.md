@@ -6,7 +6,7 @@ A quieter way to read, listen, and learn.
 - dict. · [Support](https://github.com/Somamill/Somamill/blob/main/support/dict/SUPPORT.md)
 - narai. · [App Store](https://apps.apple.com/us/app/immersed-learn-japanese/id6834110293) · [Immersed. for Mac](https://github.com/Somamill/immersed-community)
 - inei. · [Feedback](mailto:max@miller-max.com)
-- [Kotoba Atlas](https://github.com/Somamill/kotoba-atlas) · Dictionary data
+- <img src="products/kotoba-atlas.svg" width="24" height="24" alt=""> [Kotoba Atlas](https://github.com/Somamill/kotoba-atlas) · Dictionary data
 - yomiba. · [App Store](https://apps.apple.com/us/app/read-books-highlights/id6834109889)
 - sovo. · [App Store](https://apps.apple.com/us/app/sovo/id6834434329)
 

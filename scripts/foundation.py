@@ -60,7 +60,9 @@ for product in registry.values():
     url = 'https://github.com/' + product['repository']
     if product['scope'] != '.':
         url += '/tree/main/' + product['scope']
-    catalogue.append(f"- [{product['name']}]({url}){suffix}")
+    mark = product.get('mark')
+    icon = f'<img src="{mark}" width="24" height="24" alt=""> ' if mark else ''
+    catalogue.append(f"- {icon}[{product['name']}]({url}){suffix}")
 catalogue += ['', '[App support and privacy policies](https://github.com/Somamill/Somamill/tree/main/support)']
 outputs = {
     'foundation/tokens.css': '\n'.join(css) + '\n',
