@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "policyVersion": 18,
+  "policyVersion": 19,
   "files": {
     "AGENT_DEVELOPMENT.md": {
       "path": "docs/AGENT_DEVELOPMENT.md",
-      "sha256": "3094e06754b225e4a5d7fd6b604631acc9e85fda561ea2bb0e1123b796a2a4cd"
+      "sha256": "03f886e9f8c71d00c706894dbd6ff0cae757ee303d94aa6413de03fc794c8b52"
     },
     "TOOL_CATALOG.md": {
       "path": "docs/TOOL_CATALOG.md",
@@ -16,7 +16,7 @@
     },
     "APP_STORE_PLAYBOOK.md": {
       "path": "docs/APP_STORE_PLAYBOOK.md",
-      "sha256": "b219cf09b457b23191b7cdb47ed12e80b86c3e2fcaefed853e5db480fa5efa52"
+      "sha256": "66ceba90dc90c1915feab867c2b55340bd1629adcaf6a374c0b598e263209f9f"
     },
     "TREND_RESEARCH.md": {
       "path": "docs/TREND_RESEARCH.md",
