@@ -8,6 +8,8 @@ Identify the App Store ID, bundle ID, platform, storefront/localization, selecte
 
 Write one audience, one primary problem, one main outcome and a short feature-to-evidence matrix. Every advertised feature must have an implemented flow and verification in the selected Store build/platform. Cover the meaningful shipped features across the screenshot story, description and optional preview; do not cram every setting into one image. Map secondary features to copy or explain why omitted. Pending PRs and planned features are not marketing evidence.
 
+Follow the [app version and Git naming rules](AGENT_DEVELOPMENT.md#app-version-and-git-naming) before assigning the marketing version, upload build number or release tag.
+
 Keep app versions and release timing independent. Align suite typography, spacing, semantic colors, tone and release terminology through the adopted dot. kit; retain read.'s reading identity, sovo.'s listening identity and Immersed.'s learning identity. Do not rename bundle IDs, URL schemes or data locations. Never delay a necessary safety/bug fix solely to synchronize campaigns.
 
 ## 2. Three different public asset types
@@ -52,6 +54,25 @@ Keep keyword terms relevant and comma-separated; avoid duplicates already covere
 
 Select supported locales based on the product's real audience and ability to support them; en-US, de-DE and ja-JP are candidates, not an automatic promise of translated app UI. Native-language review must check search phrasing, cultural fit, line breaks and screenshot readability. Clearly disclose interface-language limits. Do not mechanically translate a comma list or claim one locale's search results prove another's demand.
 
+### What’s New for every app update
+
+Every dot. App Store update must have version-specific **What’s New** notes for each submitted platform and locale where Apple provides the field. Start with the changes actually included in the selected build. Save the final copy with the repository’s release metadata and carry the same copy into App Store Connect.
+
+- Start each nonblank line with a literal `• `. Use plain text, one bullet per line, and no introductory or closing paragraphs, standalone headings, or Markdown formatting.
+- Use one short sentence per bullet. Aim for one to five bullets and put the most useful change first. A patch can have one bullet when that is all that changed.
+- Name the feature, action, or fix and what the user will notice. Replace generic filler with a specific, verified change. Keep internal commit details out unless they explain a user-visible result.
+- Match each platform’s actual changes. Localize the wording naturally for each submitted locale while preserving the bullet format, and respect Apple’s current field limit.
+- Before submission, compare the saved text with the selected build and the repo copy. Check the App Store Connect display or read the field back through the API and confirm the bullets and line breaks survived. Correct missing notes and paragraph blocks before proceeding.
+
+Example format for a hypothetical update:
+
+```text
+• Jump to a saved highlight from search.
+• Fixed a crash when opening some EPUB files.
+```
+
+[Things 3](https://apps.apple.com/us/app/things-3/id904237743) uses short bullets that name the affected part of the app. [Obsidian](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) calls out platform-specific changes clearly. [BookPlayer](https://apps.apple.com/us/app/bookplayer/id1138219998) names concrete bugs, such as a Watch launch crash. Use these examples for specificity and prioritization. Keep the dot. notes in the flat bullet format above.
+
 ## 6. App Store Connect capability plan
 
 Before changing anything, record each feature as **use now / test later / not applicable**, with reason, target platform/localization and required permission. Use an existing connector/API or CLI where sufficient; otherwise use an authorized isolated background browser. Read the current state before each write, keep receipts/IDs and verify the result after saving. Do not submit twice after a timeout. Never commit sessions or secrets, change an unrelated app, or withdraw an in-review submission merely to polish graphics.
@@ -75,6 +96,7 @@ For each App Store setup, version, or release task, inspect the actual App Store
 | --- | --- |
 | Build and artwork | Select the intended build. Check the compiled app icon and any required listing artwork, including platform variants. Correct the asset catalog and rebuild if the icon itself is wrong. Populate the required screenshot sets and applicable previews. |
 | Product page | Complete the name, subtitle, category, description, keywords, support URL, and applicable marketing, copyright and version fields. Check localized metadata and media for each intended storefront. |
+| What’s New | For each update, verify localized, build-specific notes in the [bullet format](#whats-new-for-every-app-update) and check that the saved field matches the repository’s release metadata. |
 | Age and accessibility | Answer the age-rating questionnaire from actual content and capabilities, including web access, user content and communication where present. Complete applicable accessibility declarations from features the app actually supports. |
 | Privacy and compliance | Check that the privacy policy and labels match the build, including third-party SDKs and enabled services. Complete applicable content rights, encryption/export, license, trader and region-specific declarations using documented facts and authorized decisions. |
 | Review and distribution | Complete reviewer contact, notes, demo access, sample files, requested evidence, and applicable availability, pricing and release settings. Use the owner’s approved commercial and distribution choices. |

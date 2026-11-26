@@ -18,14 +18,14 @@ Keep interface locale separate from reading text, subtitles, dictionary meanings
 
 Inventory screens, menus, onboarding, errors, empty/loading states, settings, accessibility labels, notifications/widgets/extensions, permission descriptions, help and release copy. Use stable semantic keys/context or native string catalogs; no blanket search-and-replace of source literals and no duplicate ad-hoc translation engine. Declare supported bundle locales only when corresponding resources are real and usable. Preserve placeholders, formatting types, plural rules, units, dates/numbers, links and product names.
 
-Use native/layout-leading concepts and test Arabic RTL, mixed-script text, long German/Russian strings, Hindi/Bangla shaping, CJK line breaking, Dynamic Type, VoiceOver and font glyph coverage. Machine/agent translations are drafts until qualified language review; record who/what reviewed which version. Never invent a native-speaker sign-off. Tests verify missing keys, placeholders/plurals, default/override/fallback behavior and representative localized native flows; screenshots of translated text alone do not prove functional correctness.
+Use native/layout-leading concepts and test Arabic RTL, mixed-script text, long German/Russian strings, Hindi/Bangla shaping, CJK line breaking, Dynamic Type, VoiceOver and font glyph coverage. AI and machine translations are accepted for app UI, accessibility text, permission prompts, support material and Store listings. Internal checks may be performed by an agent. External language review and native-speaker sign-off are optional and do not gate release. Fix known meaning errors, misleading claims and broken rendering before shipping. Tests verify missing keys, placeholders/plurals, default/override/fallback behavior and representative localized native flows; screenshots of translated text alone do not prove functional correctness.
 
-Render the localized text directly. Keep translation source and review status in internal
+Render the localized text directly. Keep translation source and completed checks in internal
 release evidence. Do not ship translator notes, AI attribution, draft badges, “unverified
 text” labels or their localized equivalents in app UI, accessibility text, Store copy,
 screenshots, or support material. Check changed locales and published assets for these
-labels and their equivalents before release. Resolve a failed internal review through
-the existing review or release-exception process.
+labels and their equivalents before release. Resolve failures found by internal checks through
+the existing release process.
 
 ## App Store and release evidence
 
@@ -33,7 +33,7 @@ Localize relevant name/subtitle/keywords/description/promo/What's New, feature-c
 
 Storefront listing language can differ from runtime UI language. Test actual product-page previews and the runtime preferred-language behavior separately. If a locale is unavailable for a placement, document its supported fallback; do not create an invented locale identifier or advertise full UI support based only on a translated listing. Privacy/support claims and content-language restrictions must remain understandable.
 
-Add a release coverage table: target language; app/extension/permission-string completion; metadata/assets completion; default/override/fallback tests; native layout/accessibility evidence; qualified review status; unresolved gaps/owner exception. Use complete/partial/missing/untested honestly. Policy targets do not count as completed translations.
+Add a release coverage table: target language; app/extension/permission-string completion; metadata/assets completion; default/override/fallback tests; native layout/accessibility evidence; translation source and internal checks; unresolved gaps/owner exception. Use complete/partial/missing/untested honestly. Policy targets do not count as completed translations.
 
 ## Sources
 

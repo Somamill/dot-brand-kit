@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Accept AI translations for app and Store copy with internal checks. Make external language review optional.
+
 - Add the dot. Reddit avatar and banner, social icon preview and shared presentation rules.
 
 - Set concise interface-copy rules with guidance on when controls need visible labels.

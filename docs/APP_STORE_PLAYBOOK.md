@@ -52,7 +52,7 @@ Choose search intent from the target users' actual problem and verified features
 
 Keep keyword terms relevant and comma-separated; avoid duplicates already covered by name/subtitle/category, filler and unauthorized competitor/trademark terms. Promotional text is for timely value, not keyword stuffing; Apple says it does not affect search ranking. Write a clear opening description, scannable feature benefits, requirements and honest limitations. Do not promise free supplied books/videos, universal sync, AI, DRM access or offline behavior without verification. Keep monetization, privacy, support and What's New consistent with the actual release.
 
-Select supported locales based on the product's real audience and ability to support them; en-US, de-DE and ja-JP are candidates, not an automatic promise of translated app UI. Native-language review must check search phrasing, cultural fit, line breaks and screenshot readability. Clearly disclose interface-language limits. Do not mechanically translate a comma list or claim one locale's search results prove another's demand.
+Select supported locales based on the product's real audience and ability to support them; en-US, de-DE and ja-JP are candidates, not an automatic promise of translated app UI. Check localized search phrasing, cultural fit, line breaks and screenshot readability. AI translations and internal agent checks are accepted. External language review is optional. Clearly disclose interface-language limits. Do not mechanically translate a comma list or claim one locale's search results prove another's demand.
 
 ### What’s New for every app update
 
