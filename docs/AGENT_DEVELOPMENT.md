@@ -14,6 +14,10 @@ When asked to complete, check, or fix requirements for a registered dot. product
 6. When architecture, behavior, UI, tools, localization or release constraints change, the working agent updates the real repo-specific design documents and PROJECT_CONTEXT.md in the same PR. Explain what changed and cite actual paths/results; do not replace local context with generic generated advice or invent a design for data-only/scaffold repos. Shared requirements are managed separately and must not be edited locally.
 7. Before finishing, run the policy check again if shared files changed, inspect the task diff, commit/push authorized work and integrate through existing protections when authorized. Report the remote commit, actual tests, visual evidence, limitations and unperformed checks. A prepared file, saved form, upload, submitted review and public release are different results.
 
+## Recurring app controls
+
+Use the [dot. control standard](https://github.com/Somamill/dot-brand-kit/blob/main/docs/CONTROLS.md#shared-action-meanings) for import, search, dismissal and selection. Use an arrow into a tray for file import, a magnifier for search and an xmark for standalone dismissal. Prefer native navigation and selection when available. Mark custom selection visually and announce it to assistive technology. Reuse existing localized control labels, app accents and feature workflows.
+
 ## App version and Git naming
 
 - Give each app and independently shipped edition its own `MAJOR.MINOR.PATCH` series. Increase MAJOR for intentionally incompatible changes to a supported public contract, such as dropping a supported platform or removing compatibility with existing user data. Increase MINOR for backwards-compatible features and PATCH for backwards-compatible fixes. Reset lower numbers when a higher number increases. Use `1.0.0` for the first stable release. For an existing pre-stable `0.x` series, ship intentional breaking changes in a new minor version and document them.

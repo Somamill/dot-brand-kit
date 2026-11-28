@@ -22,6 +22,7 @@ private struct ControlSpecimen: View {
                 DotIconButton(.close, title: "Close") {}
                 Divider().frame(height: 18)
                 DotIconButton(.search, title: "Search") {}
+                DotIconButton(.importFiles, title: "Import files") {}
                 DotIconButton(.settings, title: "Settings") {}
                 Divider().frame(height: 18)
                 DotIconButton(playing ? .pause : .play, title: playing ? "Pause" : "Play") {
