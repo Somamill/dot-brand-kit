@@ -35,6 +35,17 @@ DotSwitch("Notifications", isOn: $notificationsEnabled)
 [Apple toggles](https://developer.apple.com/design/human-interface-guidelines/toggles) ·
 [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols)
 
+## Shared action meanings
+
+| Intent | Native symbol or control | In a React Native surface |
+| --- | --- | --- |
+| Bring existing files or media into the app | `square.and.arrow.down`. A native folder picker that selects a scan scope can use `folder`. | Use an arrow entering a tray, such as Ionicons `download-outline`, for a local file import. Pair it with a clear Import label when space allows. |
+| Find content | `magnifyingglass` or the platform search field. | `search-outline` with a localized accessible name. |
+| Dismiss an overlay | `xmark` for an icon-only close. Keep native Back, Cancel, and Done where they express navigation, cancellation, or completion. | `close-outline`. Name the object being dismissed, such as Close lookup. |
+| Show the current choice | Native selection when available. For custom controls, add a checkmark, a filled symbol, or a distinct shape with the app accent and announce the selected state. | Use `accessibilityState.selected` with a perceptible visual indicator and the app accent. |
+
+Keep the icon and its hit area separate. An icon-only action needs a localized name and at least a 44-point touch target. A plain plus creates something new. Selection describes the current choice and stays distinct from transient press feedback. Preserve each product’s accent, layout, feature entry points and native focus behavior.
+
 ## Render the specimen on a Mac
 
 From the kit checkout, compile and render the fixture without opening a window.

@@ -3,13 +3,14 @@ import SwiftUI
 /// A compact action for a familiar symbol. Supply a localized action name.
 public struct DotIconButton: View {
     public enum Symbol: Sendable {
-        case back, close, search, settings, play, pause
+        case back, close, search, importFiles, settings, play, pause
 
-        fileprivate var systemName: String {
+        public var systemName: String {
             switch self {
             case .back: return "chevron.backward"
             case .close: return "xmark"
             case .search: return "magnifyingglass"
+            case .importFiles: return "square.and.arrow.down"
             case .settings: return "gearshape"
             case .play: return "play.fill"
             case .pause: return "pause.fill"
